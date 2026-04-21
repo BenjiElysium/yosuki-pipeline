@@ -82,7 +82,7 @@ COPY_RESPONSE_SCHEMA = {
     "properties": {
         "tagline": {"type": "string", "maxLength": 60},
         "cta": {"type": "string", "maxLength": 40},
-        "creative_direction": {"type": "string", "maxLength": 300},
+        "creative_direction": {"type": "string"},
     },
 }
 
@@ -132,7 +132,7 @@ def generate_copy(client: anthropic.Anthropic, brand: dict, product: dict, varia
         prompt = build_copy_prompt(brand, product, variant)
 
         message = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-6",
             max_tokens=1000,
             messages=[{"role": "user", "content": prompt}],
         )
