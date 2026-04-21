@@ -15,6 +15,7 @@ Requirements:
 """
 
 import argparse
+import io
 import json
 import os
 import re
@@ -26,6 +27,7 @@ from pathlib import Path
 
 import replicate
 from dotenv import load_dotenv
+from PIL import Image
 
 load_dotenv()
 
@@ -84,16 +86,20 @@ def unique_combos(variants: list[dict]) -> list[dict]:
 
 def download_output(output, dest: Path) -> None:
     """
-    Replicate's flux-2-pro returns either a FileOutput object (newer SDK) or a URL
-    string (older SDK). Handle both. FileOutput is iterable/readable; URL is a string.
+    Flux returns WebP bytes regardless of the URL's extension, so we re-encode
+    as true PNG via Pillow — AE cannot read mislabeled WebP.
     """
     if isinstance(output, list):
         output = output[0]
 
     if hasattr(output, "read"):
-        dest.write_bytes(output.read())
+        content = output.read()
     else:
-        urllib.request.urlretrieve(str(output), dest)
+        with urllib.request.urlopen(str(output)) as resp:
+            content = resp.read()
+
+    img = Image.open(io.BytesIO(content))
+    img.save(dest, "PNG")
 
 
 def generate_background(prompt: str, dest: Path) -> bool:
