@@ -1,0 +1,98 @@
+{
+    "brand": {
+      "name": "Yosuki Musical Instrument Corporation",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "tone": "premium, precise, emotive",
+      "target_audience": "serious musicians aged 25-45"
+    },
+    "campaign": {
+      "name": "Yosuki 2025 Launch",
+      "duration_seconds": 7,
+      "aspect_ratios": ["970x250", "1920x1080", "1080x1080"],
+      "output_dir": "./output/2025-launch"
+    },
+    "products": [
+      {
+        "product_line": "guitar",
+        "model_id": "guitar-1",
+        "model_name": "YG-100 Classic",
+        "variants": ["midnight-black", "ocean-blue"],
+        "image_paths": {
+          "midnight-black": "assets/guitar1-b.png",
+          "ocean-blue": "assets/guitar1-a.png"
+        },
+        "tagline_hint": "timeless tone, modern soul",
+        "scene_direction": "warm studio, golden hour light raking across wood grain textures, rich amber tones"
+      },
+      {
+        "product_line": "guitar",
+        "model_id": "guitar-2",
+        "model_name": "YG-200 Pro",
+        "variants": ["midnight-black", "ocean-blue"],
+        "image_paths": {
+          "midnight-black": "assets/guitar2-b.png",
+          "ocean-blue": "assets/guitar2-a.png"
+        },
+        "tagline_hint": "built for the stage",
+        "scene_direction": "concert venue edge-of-stage, dramatic backlight, haze in the air, crowd blur in distance"
+      },
+      {
+        "product_line": "guitar",
+        "model_id": "guitar-3",
+        "model_name": "YG-300 Series III",
+        "variants": ["midnight-black", "ocean-blue"],
+        "image_paths": {
+          "midnight-black": "assets/guitar3-b.png",
+          "ocean-blue": "assets/guitar3-a.png"
+        },
+        "render_path": "assets/guitar3.glb",
+        "tagline_hint": "precision meets passion",
+        "scene_direction": "dimly lit studio, dramatic raking side light, deep shadows, near-black background, cinematic"
+      },
+      {
+        "product_line": "piano",
+        "model_id": "piano-1",
+        "model_name": "YP-100 Studio",
+        "variants": ["ebony"],
+        "image_paths": {
+          "ebony": "assets/piano1.png"
+        },
+        "tagline_hint": "where notes become music",
+        "scene_direction": "intimate recording studio, soft overhead spotlight, dark polished floor reflection, quiet warmth"
+      },
+      {
+        "product_line": "piano",
+        "model_id": "piano-2",
+        "model_name": "YP-200 Grand",
+        "variants": ["ebony"],
+        "image_paths": {
+          "ebony": "assets/piano2.png"
+        },
+        "tagline_hint": "the sound of mastery",
+        "scene_direction": "elegant recital room, candlelight warmth, dark wood panelling, deep burgundy and gold tones"
+      },
+      {
+        "product_line": "piano",
+        "model_id": "piano-3",
+        "model_name": "YP-300 Concert",
+        "variants": ["ebony"],
+        "image_paths": {
+          "ebony": "assets/piano3.png"
+        },
+        "tagline_hint": "crafted for the world stage",
+        "scene_direction": "grand concert hall, dramatic overhead spotlight on empty stage, vast dark auditorium receding into shadow"
+      },
+      {
+        "product_line": "saxophone",
+        "model_id": "saxophone-1",
+        "model_name": "YS-100 Alto",
+        "variants": ["gold-lacquer"],
+        "image_paths": {
+          "gold-lacquer": "assets/saxophone1.png"
+        },
+        "tagline_hint": "soul in every note",
+        "scene_direction": "late night jazz club, smoky amber spotlight, dark brick wall background, warm golden haze"
+      }
+    ]
+  }
