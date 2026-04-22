@@ -17,6 +17,7 @@ wheels/
 
 # Pipeline artifacts (regenerable — do not version)
 assets/generated/
+assets/generated-V2/
 jobs/
 output/
 

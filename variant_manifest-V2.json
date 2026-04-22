@@ -1,0 +1,1206 @@
+{
+  "generated_at": "2026-04-22T18:13:28.982469+00:00",
+  "schema_version": 2,
+  "campaign": "Yosuki 2026 Launch",
+  "brand": "Yosuki Musical Instrument Corporation",
+  "total_variants": 30,
+  "variants": [
+    {
+      "variant_id": "guitar-1_midnight-black_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar1-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_970x250_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Own the YG-100 Classic",
+      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "flux_prompt": {
+        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A1A1A",
+          "#0D0D0D",
+          "#C8781A",
+          "#F0C060",
+          "#2C1A0E"
+        ],
+        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
+        "mood": "hushed, luminous, reverent, timeless, intimate",
+        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
+        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered on light field",
+          "lens": "80mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_midnight-black_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-1_midnight-black_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar1-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_1920x1080_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Own the YG-100 Classic",
+      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "flux_prompt": {
+        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A1A1A",
+          "#0D0D0D",
+          "#C8781A",
+          "#F0C060",
+          "#2C1A0E"
+        ],
+        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
+        "mood": "hushed, luminous, reverent, timeless, intimate",
+        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
+        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered on light field",
+          "lens": "80mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_midnight-black_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-1_midnight-black_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar1-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_1080x1080_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Own the YG-100 Classic",
+      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "flux_prompt": {
+        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A1A1A",
+          "#0D0D0D",
+          "#C8781A",
+          "#F0C060",
+          "#2C1A0E"
+        ],
+        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
+        "mood": "hushed, luminous, reverent, timeless, intimate",
+        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
+        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered on light field",
+          "lens": "80mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_midnight-black_1080x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-1_ocean-blue_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar1-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_970x250_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "flux_prompt": {
+        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A3A5C",
+          "#D4820A",
+          "#F5C97A",
+          "#1A1A1A",
+          "#E8D5B0"
+        ],
+        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
+        "mood": "intimate, timeless, emotive, hushed, golden, precise",
+        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
+        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_ocean-blue_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-1_ocean-blue_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar1-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_1920x1080_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "flux_prompt": {
+        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A3A5C",
+          "#D4820A",
+          "#F5C97A",
+          "#1A1A1A",
+          "#E8D5B0"
+        ],
+        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
+        "mood": "intimate, timeless, emotive, hushed, golden, precise",
+        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
+        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_ocean-blue_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-1_ocean-blue_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar1-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_1080x1080_bg.png",
+      "tagline": "Timeless Tone. Modern Soul.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "flux_prompt": {
+        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "color_palette": [
+          "#B01020",
+          "#1A3A5C",
+          "#D4820A",
+          "#F5C97A",
+          "#1A1A1A",
+          "#E8D5B0"
+        ],
+        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
+        "mood": "intimate, timeless, emotive, hushed, golden, precise",
+        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
+        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "camera": {
+          "angle": "Straight-on, slightly elevated, centered",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+        }
+      },
+      "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-1_ocean-blue_1080x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-2_midnight-black_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar2-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_970x250_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "flux_prompt": {
+        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "color_palette": [
+          "#0A0A0F",
+          "#B01020",
+          "#C8922A",
+          "#1A1228",
+          "#3D2040",
+          "#F0E8D0"
+        ],
+        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
+        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
+        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
+        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "camera": {
+          "angle": "Low, slightly elevated, wide horizontal",
+          "lens": "85mm f/1.4 \u2014 extreme subject separation",
+          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_midnight-black_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-2_midnight-black_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar2-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_1920x1080_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "flux_prompt": {
+        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "color_palette": [
+          "#0A0A0F",
+          "#B01020",
+          "#C8922A",
+          "#1A1228",
+          "#3D2040",
+          "#F0E8D0"
+        ],
+        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
+        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
+        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
+        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "camera": {
+          "angle": "Low, slightly elevated, wide horizontal",
+          "lens": "85mm f/1.4 \u2014 extreme subject separation",
+          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_midnight-black_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-2_midnight-black_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar2-a.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_1080x1080_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "flux_prompt": {
+        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "color_palette": [
+          "#0A0A0F",
+          "#B01020",
+          "#C8922A",
+          "#1A1228",
+          "#3D2040",
+          "#F0E8D0"
+        ],
+        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
+        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
+        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
+        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "camera": {
+          "angle": "Low, slightly elevated, wide horizontal",
+          "lens": "85mm f/1.4 \u2014 extreme subject separation",
+          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_midnight-black_1080x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-2_ocean-blue_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar2-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_970x250_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "flux_prompt": {
+        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A1628",
+          "#1B4F72",
+          "#5BA4CF",
+          "#B01020",
+          "#F5A623",
+          "#2C2C2C"
+        ],
+        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
+        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
+        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
+        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "camera": {
+          "angle": "Low, slightly elevated horizon, wide field of view",
+          "lens": "90mm f/2.8 medium telephoto",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_ocean-blue_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-2_ocean-blue_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar2-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_1920x1080_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "flux_prompt": {
+        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A1628",
+          "#1B4F72",
+          "#5BA4CF",
+          "#B01020",
+          "#F5A623",
+          "#2C2C2C"
+        ],
+        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
+        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
+        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
+        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "camera": {
+          "angle": "Low, slightly elevated horizon, wide field of view",
+          "lens": "90mm f/2.8 medium telephoto",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_ocean-blue_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-2_ocean-blue_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar2-b.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_1080x1080_bg.png",
+      "tagline": "Born for the Stage.",
+      "cta": "Discover the YG-200 Pro",
+      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "flux_prompt": {
+        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A1628",
+          "#1B4F72",
+          "#5BA4CF",
+          "#B01020",
+          "#F5A623",
+          "#2C2C2C"
+        ],
+        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
+        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
+        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
+        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "camera": {
+          "angle": "Low, slightly elevated horizon, wide field of view",
+          "lens": "90mm f/2.8 medium telephoto",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+        }
+      },
+      "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-2_ocean-blue_1080x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-3_midnight-black_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar3-a.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_970x250_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "style": "Hasselblad X2D 100C, 90mm f/3.2",
+        "color_palette": [
+          "#0A0A0C",
+          "#1A1A1F",
+          "#B01020",
+          "#2C1018",
+          "#C8C8CC"
+        ],
+        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
+        "mood": "austere, precise, smoldering, meditative, inevitable",
+        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
+        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "camera": {
+          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "lens": "90mm f/3.2 medium format",
+          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_midnight-black_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-3_midnight-black_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar3-a.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_1920x1080_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "style": "Hasselblad X2D 100C, 90mm f/3.2",
+        "color_palette": [
+          "#0A0A0C",
+          "#1A1A1F",
+          "#B01020",
+          "#2C1018",
+          "#C8C8CC"
+        ],
+        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
+        "mood": "austere, precise, smoldering, meditative, inevitable",
+        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
+        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "camera": {
+          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "lens": "90mm f/3.2 medium format",
+          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_midnight-black_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-3_midnight-black_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "midnight-black",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar3-a.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_1080x1080_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "style": "Hasselblad X2D 100C, 90mm f/3.2",
+        "color_palette": [
+          "#0A0A0C",
+          "#1A1A1F",
+          "#B01020",
+          "#2C1018",
+          "#C8C8CC"
+        ],
+        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
+        "mood": "austere, precise, smoldering, meditative, inevitable",
+        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
+        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "camera": {
+          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "lens": "90mm f/3.2 medium format",
+          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_midnight-black_1080x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-3_ocean-blue_970x250",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/guitar3-b.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_970x250_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
+        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "color_palette": [
+          "#0A0C10",
+          "#1A3A4A",
+          "#2E6880",
+          "#B0C8D4",
+          "#B01020",
+          "#1C1014"
+        ],
+        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
+        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
+        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
+        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "camera": {
+          "angle": "Straight-on parallel plane, slightly elevated",
+          "lens": "Hasselblad XCD 90mm f/3.5",
+          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_ocean-blue_970x250.mp4"
+    },
+    {
+      "variant_id": "guitar-3_ocean-blue_1920x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/guitar3-b.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_1920x1080_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
+        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "color_palette": [
+          "#0A0C10",
+          "#1A3A4A",
+          "#2E6880",
+          "#B0C8D4",
+          "#B01020",
+          "#1C1014"
+        ],
+        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
+        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
+        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
+        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "camera": {
+          "angle": "Straight-on parallel plane, slightly elevated",
+          "lens": "Hasselblad XCD 90mm f/3.5",
+          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_ocean-blue_1920x1080.mp4"
+    },
+    {
+      "variant_id": "guitar-3_ocean-blue_1080x1080",
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "color_variant": "ocean-blue",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/guitar3-b.png",
+      "render_path": "assets/guitar3.glb",
+      "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_1080x1080_bg.png",
+      "tagline": "Precision Meets Passion.",
+      "cta": "Discover the YG-300",
+      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "flux_prompt": {
+        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
+        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "color_palette": [
+          "#0A0C10",
+          "#1A3A4A",
+          "#2E6880",
+          "#B0C8D4",
+          "#B01020",
+          "#1C1014"
+        ],
+        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
+        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
+        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
+        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "camera": {
+          "angle": "Straight-on parallel plane, slightly elevated",
+          "lens": "Hasselblad XCD 90mm f/3.5",
+          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+        }
+      },
+      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_guitar-3_ocean-blue_1080x1080.mp4"
+    },
+    {
+      "variant_id": "piano-1_ebony_970x250",
+      "product_line": "piano",
+      "model_id": "piano-1",
+      "model_name": "YP-100 Studio",
+      "color_variant": "ebony",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/piano1.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where notes become music.",
+      "cta": "Discover the YP-100",
+      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "flux_prompt": {
+        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#D4782A",
+          "#F2A84B",
+          "#1A1008",
+          "#2E1B0A",
+          "#0A0A0A"
+        ],
+        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
+        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
+        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
+        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "camera": {
+          "angle": "Stage-level horizontal, slightly upward tilt",
+          "lens": "Hasselblad XCD 110mm f/2.8",
+          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+        }
+      },
+      "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-1_ebony_970x250.mp4"
+    },
+    {
+      "variant_id": "piano-1_ebony_1920x1080",
+      "product_line": "piano",
+      "model_id": "piano-1",
+      "model_name": "YP-100 Studio",
+      "color_variant": "ebony",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/piano1.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where notes become music.",
+      "cta": "Discover the YP-100",
+      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "flux_prompt": {
+        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#D4782A",
+          "#F2A84B",
+          "#1A1008",
+          "#2E1B0A",
+          "#0A0A0A"
+        ],
+        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
+        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
+        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
+        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "camera": {
+          "angle": "Stage-level horizontal, slightly upward tilt",
+          "lens": "Hasselblad XCD 110mm f/2.8",
+          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+        }
+      },
+      "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-1_ebony_1920x1080.mp4"
+    },
+    {
+      "variant_id": "piano-1_ebony_1080x1080",
+      "product_line": "piano",
+      "model_id": "piano-1",
+      "model_name": "YP-100 Studio",
+      "color_variant": "ebony",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/piano1.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where notes become music.",
+      "cta": "Discover the YP-100",
+      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "flux_prompt": {
+        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#D4782A",
+          "#F2A84B",
+          "#1A1008",
+          "#2E1B0A",
+          "#0A0A0A"
+        ],
+        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
+        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
+        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
+        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "camera": {
+          "angle": "Stage-level horizontal, slightly upward tilt",
+          "lens": "Hasselblad XCD 110mm f/2.8",
+          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+        }
+      },
+      "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-1_ebony_1080x1080.mp4"
+    },
+    {
+      "variant_id": "piano-2_ebony_970x250",
+      "product_line": "piano",
+      "model_id": "piano-2",
+      "model_name": "YP-200 Grand",
+      "color_variant": "ebony",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/piano2.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where Mastery Finds Its Voice",
+      "cta": "Discover the YP-200",
+      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "flux_prompt": {
+        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#1A0A0E",
+          "#C8922A",
+          "#4B1C24",
+          "#F5DFA0",
+          "#2C1A0E"
+        ],
+        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
+        "mood": "opulent, hushed, reverent, timeless, emotive",
+        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
+        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "camera": {
+          "angle": "Frontal, slightly low horizon",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+        }
+      },
+      "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-2_ebony_970x250.mp4"
+    },
+    {
+      "variant_id": "piano-2_ebony_1920x1080",
+      "product_line": "piano",
+      "model_id": "piano-2",
+      "model_name": "YP-200 Grand",
+      "color_variant": "ebony",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/piano2.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where Mastery Finds Its Voice",
+      "cta": "Discover the YP-200",
+      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "flux_prompt": {
+        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#1A0A0E",
+          "#C8922A",
+          "#4B1C24",
+          "#F5DFA0",
+          "#2C1A0E"
+        ],
+        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
+        "mood": "opulent, hushed, reverent, timeless, emotive",
+        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
+        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "camera": {
+          "angle": "Frontal, slightly low horizon",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+        }
+      },
+      "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-2_ebony_1920x1080.mp4"
+    },
+    {
+      "variant_id": "piano-2_ebony_1080x1080",
+      "product_line": "piano",
+      "model_id": "piano-2",
+      "model_name": "YP-200 Grand",
+      "color_variant": "ebony",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/piano2.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Where Mastery Finds Its Voice",
+      "cta": "Discover the YP-200",
+      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "flux_prompt": {
+        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#B01020",
+          "#1A0A0E",
+          "#C8922A",
+          "#4B1C24",
+          "#F5DFA0",
+          "#2C1A0E"
+        ],
+        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
+        "mood": "opulent, hushed, reverent, timeless, emotive",
+        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
+        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "camera": {
+          "angle": "Frontal, slightly low horizon",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+        }
+      },
+      "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-2_ebony_1080x1080.mp4"
+    },
+    {
+      "variant_id": "piano-3_ebony_970x250",
+      "product_line": "piano",
+      "model_id": "piano-3",
+      "model_name": "YP-300 Concert",
+      "color_variant": "ebony",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/piano3.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Crafted for the World Stage.",
+      "cta": "Discover the YP-300",
+      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "flux_prompt": {
+        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
+        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A0A0A",
+          "#B01020",
+          "#C8893A",
+          "#1C1014",
+          "#E8D5B0",
+          "#2A0810"
+        ],
+        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
+        "mood": "reverential, monumental, epic, hushed, transcendent",
+        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
+        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "camera": {
+          "angle": "Extreme low angle, near floor level, tilted slightly upward",
+          "lens": "Hasselblad XCD 55mm f/2.8",
+          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+        }
+      },
+      "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-3_ebony_970x250.mp4"
+    },
+    {
+      "variant_id": "piano-3_ebony_1920x1080",
+      "product_line": "piano",
+      "model_id": "piano-3",
+      "model_name": "YP-300 Concert",
+      "color_variant": "ebony",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/piano3.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Crafted for the World Stage.",
+      "cta": "Discover the YP-300",
+      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "flux_prompt": {
+        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
+        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A0A0A",
+          "#B01020",
+          "#C8893A",
+          "#1C1014",
+          "#E8D5B0",
+          "#2A0810"
+        ],
+        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
+        "mood": "reverential, monumental, epic, hushed, transcendent",
+        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
+        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "camera": {
+          "angle": "Extreme low angle, near floor level, tilted slightly upward",
+          "lens": "Hasselblad XCD 55mm f/2.8",
+          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+        }
+      },
+      "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-3_ebony_1920x1080.mp4"
+    },
+    {
+      "variant_id": "piano-3_ebony_1080x1080",
+      "product_line": "piano",
+      "model_id": "piano-3",
+      "model_name": "YP-300 Concert",
+      "color_variant": "ebony",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/piano3.png",
+      "render_path": null,
+      "bg_image_path": null,
+      "tagline": "Crafted for the World Stage.",
+      "cta": "Discover the YP-300",
+      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "flux_prompt": {
+        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
+        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "color_palette": [
+          "#0A0A0A",
+          "#B01020",
+          "#C8893A",
+          "#1C1014",
+          "#E8D5B0",
+          "#2A0810"
+        ],
+        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
+        "mood": "reverential, monumental, epic, hushed, transcendent",
+        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
+        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "camera": {
+          "angle": "Extreme low angle, near floor level, tilted slightly upward",
+          "lens": "Hasselblad XCD 55mm f/2.8",
+          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+        }
+      },
+      "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_piano-3_ebony_1080x1080.mp4"
+    },
+    {
+      "variant_id": "saxophone-1_gold-lacquer_970x250",
+      "product_line": "saxophone",
+      "model_id": "saxophone-1",
+      "model_name": "YS-100 Alto",
+      "color_variant": "gold-lacquer",
+      "aspect_ratio": "970x250",
+      "product_image_path": "assets/saxophone1.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_970x250_bg.png",
+      "tagline": "Soul in Every Note.",
+      "cta": "Discover the YS-100",
+      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "flux_prompt": {
+        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
+        "color_palette": [
+          "#B01020",
+          "#D4820A",
+          "#F5C842",
+          "#1A0A00",
+          "#3B1F08",
+          "#7C4A10"
+        ],
+        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
+        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
+        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
+        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "camera": {
+          "angle": "Straight-on, level",
+          "lens": "Noctilux-M 50mm f/0.95 ASPH",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+        }
+      },
+      "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_saxophone-1_gold-lacquer_970x250.mp4"
+    },
+    {
+      "variant_id": "saxophone-1_gold-lacquer_1920x1080",
+      "product_line": "saxophone",
+      "model_id": "saxophone-1",
+      "model_name": "YS-100 Alto",
+      "color_variant": "gold-lacquer",
+      "aspect_ratio": "1920x1080",
+      "product_image_path": "assets/saxophone1.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_1920x1080_bg.png",
+      "tagline": "Soul in Every Note.",
+      "cta": "Discover the YS-100",
+      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "flux_prompt": {
+        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
+        "color_palette": [
+          "#B01020",
+          "#D4820A",
+          "#F5C842",
+          "#1A0A00",
+          "#3B1F08",
+          "#7C4A10"
+        ],
+        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
+        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
+        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
+        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "camera": {
+          "angle": "Straight-on, level",
+          "lens": "Noctilux-M 50mm f/0.95 ASPH",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+        }
+      },
+      "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_saxophone-1_gold-lacquer_1920x1080.mp4"
+    },
+    {
+      "variant_id": "saxophone-1_gold-lacquer_1080x1080",
+      "product_line": "saxophone",
+      "model_id": "saxophone-1",
+      "model_name": "YS-100 Alto",
+      "color_variant": "gold-lacquer",
+      "aspect_ratio": "1080x1080",
+      "product_image_path": "assets/saxophone1.png",
+      "render_path": null,
+      "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_1080x1080_bg.png",
+      "tagline": "Soul in Every Note.",
+      "cta": "Discover the YS-100",
+      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "flux_prompt": {
+        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
+        "color_palette": [
+          "#B01020",
+          "#D4820A",
+          "#F5C842",
+          "#1A0A00",
+          "#3B1F08",
+          "#7C4A10"
+        ],
+        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
+        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
+        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
+        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "camera": {
+          "angle": "Straight-on, level",
+          "lens": "Noctilux-M 50mm f/0.95 ASPH",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+        }
+      },
+      "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",
+      "logo_path": "assets/logo.png",
+      "primary_color": "#B01020",
+      "duration_seconds": 7,
+      "output_path": "output/2026-launch-V2/yosuki_saxophone-1_gold-lacquer_1080x1080.mp4"
+    }
+  ]
+}
