@@ -1,98 +1,98 @@
 {
-    "brand": {
-      "name": "Yosuki Musical Instrument Corporation",
-      "logo_path": "assets/logo.png",
-      "primary_color": "#B01020",
-      "tone": "premium, precise, emotive",
-      "target_audience": "serious musicians aged 25-45"
+  "brand": {
+    "name": "Yosuki Musical Instrument Corporation",
+    "logo_path": "assets/logo.png",
+    "primary_color": "#B01020",
+    "tone": "premium, precise, emotive",
+    "target_audience": "serious musicians aged 25-45"
+  },
+  "campaign": {
+    "name": "Yosuki 2025 Launch",
+    "duration_seconds": 7,
+    "aspect_ratios": ["970x250", "1920x1080", "1080x1080"],
+    "output_dir": "./output/2025-launch"
+  },
+  "products": [
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar1-a.png",
+        "ocean-blue": "assets/guitar1-b.png"
+      },
+      "tagline_hint": "timeless tone, modern soul",
+      "scene_direction": "{\"scene\": \"Empty professional recording studio interior at golden hour\", \"style\": \"cinematic product photography, shot on Canon 5D Mark IV, 35mm lens, f/2.8\", \"color_palette\": [\"#B01020\", \"#C8A96E\", \"#1A1A1A\", \"#F5E6C8\"], \"lighting\": \"warm amber side lighting raking across smooth hardwood floor, single window with golden hour glow, long soft shadows\", \"mood\": \"intimate, warm, timeless\", \"background\": \"smooth hardwood floor surface, dark studio wall, warm ambient glow\", \"composition\": \"wide horizontal, empty foreground with space on right for product placement\", \"camera\": {\"angle\": \"low angle, 18 inches from floor\", \"lens\": \"35mm\", \"depth_of_field\": \"sharp floor, soft background\"}}"
     },
-    "campaign": {
-      "name": "Yosuki 2025 Launch",
-      "duration_seconds": 7,
-      "aspect_ratios": ["970x250", "1920x1080", "1080x1080"],
-      "output_dir": "./output/2025-launch"
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar2-a.png",
+        "ocean-blue": "assets/guitar2-b.png"
+      },
+      "tagline_hint": "built for the stage",
+      "scene_direction": "{\"scene\": \"Edge of a concert stage looking into a vast dark arena, crowd visible in distance\", \"style\": \"cinematic concert photography, shot on Sony A7IV, 24mm lens, f/1.8\", \"color_palette\": [\"#B01020\", \"#0A0A0A\", \"#4A6FA5\", \"#E8E8E8\"], \"lighting\": \"dramatic backlight in deep crimson #B01020 and cool blue, haze particles catching light, stage edge lit from below\", \"mood\": \"epic, electrifying, aspirational\", \"background\": \"black stage floor, atmospheric haze, blurred crowd lights, vast empty arena darkness\", \"composition\": \"wide shot, stage floor in foreground, arena receding to horizon, space on left for product\", \"camera\": {\"angle\": \"low angle, floor level\", \"lens\": \"24mm wide\", \"depth_of_field\": \"sharp stage floor, bokeh crowd lights\"}}"
     },
-    "products": [
-      {
-        "product_line": "guitar",
-        "model_id": "guitar-1",
-        "model_name": "YG-100 Classic",
-        "variants": ["midnight-black", "ocean-blue"],
-        "image_paths": {
-          "midnight-black": "assets/guitar1-b.png",
-          "ocean-blue": "assets/guitar1-a.png"
-        },
-        "tagline_hint": "timeless tone, modern soul",
-        "scene_direction": "warm studio, golden hour light raking across wood grain textures, rich amber tones"
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar3-a.png",
+        "ocean-blue": "assets/guitar3-b.png"
       },
-      {
-        "product_line": "guitar",
-        "model_id": "guitar-2",
-        "model_name": "YG-200 Pro",
-        "variants": ["midnight-black", "ocean-blue"],
-        "image_paths": {
-          "midnight-black": "assets/guitar2-b.png",
-          "ocean-blue": "assets/guitar2-a.png"
-        },
-        "tagline_hint": "built for the stage",
-        "scene_direction": "concert venue edge-of-stage, dramatic backlight, haze in the air, crowd blur in distance"
+      "render_path": "assets/guitar3.glb",
+      "tagline_hint": "precision meets passion",
+      "scene_direction": "{\"scene\": \"Minimalist dark studio void with single raking light source\", \"style\": \"high-end product photography, shot on Hasselblad X2D, 80mm lens, f/4\", \"color_palette\": [\"#0A0A0A\", \"#1A1A1A\", \"#B01020\", \"#C0C0C0\"], \"lighting\": \"single dramatic side light raking at 15 degrees, razor-sharp shadow line across smooth surface, deep shadow on far side, no fill\", \"mood\": \"precise, intense, premium\", \"background\": \"near-black seamless studio backdrop, polished dark surface with subtle reflection, deep shadow\", \"composition\": \"centered, empty dark space, subtle surface reflection on lower third\", \"camera\": {\"angle\": \"eye level\", \"lens\": \"80mm\", \"depth_of_field\": \"sharp throughout\"}}"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-1",
+      "model_name": "YP-100 Studio",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano1.png"
       },
-      {
-        "product_line": "guitar",
-        "model_id": "guitar-3",
-        "model_name": "YG-300 Series III",
-        "variants": ["midnight-black", "ocean-blue"],
-        "image_paths": {
-          "midnight-black": "assets/guitar3-b.png",
-          "ocean-blue": "assets/guitar3-a.png"
-        },
-        "render_path": "assets/guitar3.glb",
-        "tagline_hint": "precision meets passion",
-        "scene_direction": "dimly lit studio, dramatic raking side light, deep shadows, near-black background, cinematic"
+      "tagline_hint": "where notes become music",
+      "scene_direction": "{\"scene\": \"Abstract dark void with a wide soft gradient light field, warm amber dissolving into deep black\", \"style\": \"fine art abstract photography, long exposure, soft focus throughout\", \"color_palette\": [\"#D4B896\", \"#8B5E3C\", \"#1A1008\", \"#0A0A0A\"], \"lighting\": \"wide diffused warm amber gradient field occupying lower two thirds of frame, light source implied not shown, no hard edges, seamless fade to black at top\", \"mood\": \"quiet, meditative, warm\", \"background\": \"pure gradient field, warm amber at base fading to near-black, no floor texture, no architecture, no objects\", \"composition\": \"horizontal gradient bands, warmest at bottom third, dark at top, entire frame is the light\", \"camera\": {\"angle\": \"flat, perpendicular to gradient\", \"lens\": \"100mm macro\", \"depth_of_field\": \"infinite, no focal point\"}}"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-2",
+      "model_name": "YP-200 Grand",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano2.png"
       },
-      {
-        "product_line": "piano",
-        "model_id": "piano-1",
-        "model_name": "YP-100 Studio",
-        "variants": ["ebony"],
-        "image_paths": {
-          "ebony": "assets/piano1.png"
-        },
-        "tagline_hint": "where notes become music",
-        "scene_direction": "intimate recording studio, soft overhead spotlight, dark polished floor reflection, quiet warmth"
+      "tagline_hint": "the sound of mastery",
+      "scene_direction": "{\"scene\": \"Abstract painterly gradient from deep burgundy to warm gold, rich and velvety\", \"style\": \"fine art color field painting rendered photographically, ultra smooth\", \"color_palette\": [\"#4A1A0A\", \"#8B2020\", \"#8B6914\", \"#C8A830\"], \"lighting\": \"no directional light source, pure color field — deep burgundy #4A1A0A at edges transitioning through crimson #8B2020 to warm gold #C8A830 at center, even luminous glow\", \"mood\": \"opulent, masterful, old world\", \"background\": \"seamless color gradient field, no objects, no texture, no architecture, pure color\", \"composition\": \"radial gradient, gold center, burgundy perimeter, fills entire frame\", \"camera\": {\"angle\": \"flat\", \"lens\": \"85mm\", \"depth_of_field\": \"infinite\"}}"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-3",
+      "model_name": "YP-300 Concert",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano3.png"
       },
-      {
-        "product_line": "piano",
-        "model_id": "piano-2",
-        "model_name": "YP-200 Grand",
-        "variants": ["ebony"],
-        "image_paths": {
-          "ebony": "assets/piano2.png"
-        },
-        "tagline_hint": "the sound of mastery",
-        "scene_direction": "elegant recital room, candlelight warmth, dark wood panelling, deep burgundy and gold tones"
+      "tagline_hint": "crafted for the world stage",
+      "scene_direction": "{\"scene\": \"Abstract vast darkness with a single wide beam of cool white light descending from above\", \"style\": \"fine art light installation photography, minimal, monumental\", \"color_palette\": [\"#0A0A0A\", \"#0A0A1A\", \"#C8C8D4\", \"#B01020\"], \"lighting\": \"single wide shaft of cool diffused white light descending vertically from top of frame, dissolving into darkness at bottom, edges of light beam soft and feathered, rest of frame near-black with subtle blue-black depth\", \"mood\": \"monumental, reverent, vast, world-stage\", \"background\": \"pure darkness with one descending light column, no floor, no ceiling, no architecture visible, abstract light in void\", \"composition\": \"centered vertical light beam, symmetrical, darkness on both sides, light occupies center third of width\", \"camera\": {\"angle\": \"flat perpendicular\", \"lens\": \"50mm\", \"depth_of_field\": \"infinite\"}}"
+    },
+    {
+      "product_line": "saxophone",
+      "model_id": "saxophone-1",
+      "model_name": "YS-100 Alto",
+      "variants": ["gold-lacquer"],
+      "image_paths": {
+        "gold-lacquer": "assets/saxophone1.png"
       },
-      {
-        "product_line": "piano",
-        "model_id": "piano-3",
-        "model_name": "YP-300 Concert",
-        "variants": ["ebony"],
-        "image_paths": {
-          "ebony": "assets/piano3.png"
-        },
-        "tagline_hint": "crafted for the world stage",
-        "scene_direction": "grand concert hall, dramatic overhead spotlight on empty stage, vast dark auditorium receding into shadow"
-      },
-      {
-        "product_line": "saxophone",
-        "model_id": "saxophone-1",
-        "model_name": "YS-100 Alto",
-        "variants": ["gold-lacquer"],
-        "image_paths": {
-          "gold-lacquer": "assets/saxophone1.png"
-        },
-        "tagline_hint": "soul in every note",
-        "scene_direction": "late night jazz club, smoky amber spotlight, dark brick wall background, warm golden haze"
-      }
-    ]
-  }
+      "tagline_hint": "soul in every note",
+      "scene_direction": "{\"scene\": \"Late night jazz club interior, atmospheric and smoky\", \"style\": \"documentary night photography, shot on Leica M11, 35mm Summilux, f/1.4\", \"color_palette\": [\"#B01020\", \"#8B6914\", \"#1A0A08\", \"#F5C842\"], \"lighting\": \"single amber spotlight from above creating warm pool in smoke-filled air, light scattering through haze in gold tones #F5C842, dark brick wall behind, deep warm shadows\", \"mood\": \"soulful, late-night, smoky, jazz\", \"background\": \"dark exposed brick wall, atmospheric smoke haze catching amber light, dark wooden floor, intimate club darkness\", \"composition\": \"centered amber light pool, brick wall texture visible, atmospheric depth with smoke\", \"camera\": {\"angle\": \"eye level\", \"lens\": \"35mm Summilux\", \"depth_of_field\": \"soft, dreamy bokeh in background smoke\"}}"
+    }
+  ]
+}

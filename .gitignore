@@ -11,4 +11,18 @@ wheels/
 
 # Environment variables
 .env
-.glb
+
+# 3D assets (large, regenerable)
+*.glb
+
+# Pipeline artifacts (regenerable — do not version)
+assets/generated/
+jobs/
+output/
+
+# After Effects side-files
+templates/Adobe After Effects Auto-Save/
+templates/*.aep Logs/
+
+# macOS
+.DS_Store
