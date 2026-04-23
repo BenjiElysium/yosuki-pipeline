@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T18:13:28.982469+00:00",
+  "generated_at": "2026-04-22T23:36:47.028276+00:00",
   "schema_version": 2,
   "campaign": "Yosuki 2026 Launch",
   "brand": "Yosuki Musical Instrument Corporation",
@@ -16,27 +16,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_970x250_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Own the YG-100 Classic",
-      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
       "flux_prompt": {
-        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
-        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "scene": "Molten amber light dissolving into deep midnight blackness, suspended luminous dust particles drifting through warm golden haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, medium format fine art",
         "color_palette": [
           "#B01020",
-          "#1A1A1A",
-          "#0D0D0D",
-          "#C8781A",
-          "#F0C060",
-          "#2C1A0E"
+          "#0A0A0F",
+          "#1C1008",
+          "#C97820",
+          "#F5C96A",
+          "#3A1A08"
         ],
-        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
-        "mood": "hushed, luminous, reverent, timeless, intimate",
-        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
-        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "lighting": "Single warm amber source off-frame right, radial bloom fading to pure black, soft golden gradients with crimson undertones at the deep shadow edge",
+        "mood": "reverent, intimate, timeless, smoldering, precise",
+        "background": "Deep black void warming to amber-gold at center, bleeding crimson in shadow depths \u2014 rich, matte, compositing-ready gradient field",
+        "composition": "Radial warm bloom centered slightly right of frame, darkness collapsing inward from all edges, horizontal tonal bands dissolving upward",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered on light field",
-          "lens": "80mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+          "angle": "Straight-on, slightly elevated, perpendicular to gradient field",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground dust particles soft, mid-field luminous bloom in focus, background collapses to pure black"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -56,27 +56,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_1920x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Own the YG-100 Classic",
-      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
       "flux_prompt": {
-        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
-        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "scene": "Molten amber light dissolving into deep midnight blackness, suspended luminous dust particles drifting through warm golden haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, medium format fine art",
         "color_palette": [
           "#B01020",
-          "#1A1A1A",
-          "#0D0D0D",
-          "#C8781A",
-          "#F0C060",
-          "#2C1A0E"
+          "#0A0A0F",
+          "#1C1008",
+          "#C97820",
+          "#F5C96A",
+          "#3A1A08"
         ],
-        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
-        "mood": "hushed, luminous, reverent, timeless, intimate",
-        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
-        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "lighting": "Single warm amber source off-frame right, radial bloom fading to pure black, soft golden gradients with crimson undertones at the deep shadow edge",
+        "mood": "reverent, intimate, timeless, smoldering, precise",
+        "background": "Deep black void warming to amber-gold at center, bleeding crimson in shadow depths \u2014 rich, matte, compositing-ready gradient field",
+        "composition": "Radial warm bloom centered slightly right of frame, darkness collapsing inward from all edges, horizontal tonal bands dissolving upward",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered on light field",
-          "lens": "80mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+          "angle": "Straight-on, slightly elevated, perpendicular to gradient field",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground dust particles soft, mid-field luminous bloom in focus, background collapses to pure black"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -96,27 +96,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_midnight-black_1080x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Own the YG-100 Classic",
-      "creative_direction": "Midnight-black finish demands warmth as counterpoint. Golden amber bleeds left, dissolving into deep shadow on the right. Soft bokeh particles float mid-frame. No hard edges \u2014 only a long, quiet luminous gradient that lets the guitar command silence.",
+      "cta": "Discover the YG-100",
+      "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
       "flux_prompt": {
-        "scene": "Warm amber light field dissolving into deep charcoal shadow, suspended golden dust particles drifting through soft bokeh gradients",
-        "style": "Hasselblad X2D 100C, 80mm f/2.8",
+        "scene": "Molten amber light dissolving into deep midnight blackness, suspended luminous dust particles drifting through warm golden haze",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8, medium format fine art",
         "color_palette": [
           "#B01020",
-          "#1A1A1A",
-          "#0D0D0D",
-          "#C8781A",
-          "#F0C060",
-          "#2C1A0E"
+          "#0A0A0F",
+          "#1C1008",
+          "#C97820",
+          "#F5C96A",
+          "#3A1A08"
         ],
-        "lighting": "Single warm amber source bleeding left-to-right, feathering into near-black shadow, with faint crimson undertone in the deep midground",
-        "mood": "hushed, luminous, reverent, timeless, intimate",
-        "background": "Deep charcoal-to-amber color field gradient, fine grain, painterly soft bokeh halos, no texture edges \u2014 pure atmospheric depth",
-        "composition": "Horizontal gradient band: warm amber left third bleeding through rich midtone gold center into dark charcoal right third",
+        "lighting": "Single warm amber source off-frame right, radial bloom fading to pure black, soft golden gradients with crimson undertones at the deep shadow edge",
+        "mood": "reverent, intimate, timeless, smoldering, precise",
+        "background": "Deep black void warming to amber-gold at center, bleeding crimson in shadow depths \u2014 rich, matte, compositing-ready gradient field",
+        "composition": "Radial warm bloom centered slightly right of frame, darkness collapsing inward from all edges, horizontal tonal bands dissolving upward",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered on light field",
-          "lens": "80mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolve into smooth luminous bokeh, mid-plane in soft focus"
+          "angle": "Straight-on, slightly elevated, perpendicular to gradient field",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow \u2014 foreground dust particles soft, mid-field luminous bloom in focus, background collapses to pure black"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -136,27 +136,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_970x250_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Discover the YG-100",
-      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "cta": "Play Your Legacy",
+      "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
       "flux_prompt": {
-        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "scene": "Vast color field dissolving from warm amber gold into deep oceanic blue-black, soft luminous haze drifting through mid-layer",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8",
         "color_palette": [
           "#B01020",
-          "#1A3A5C",
-          "#D4820A",
-          "#F5C97A",
-          "#1A1A1A",
-          "#E8D5B0"
+          "#1B3A5C",
+          "#D4882A",
+          "#0A0A0A",
+          "#C8D8E8",
+          "#8B6914"
         ],
-        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
-        "mood": "intimate, timeless, emotive, hushed, golden, precise",
-        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
-        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "lighting": "Single diffused warm amber source fading radially outward into cool oceanic darkness, soft gradient bloom at center",
+        "mood": "reverent, timeless, hushed, luminous, contemplative",
+        "background": "Deep teal-midnight vignette with a suspended amber glow at center, seamless gradient suited to instrument compositing",
+        "composition": "Radial bloom centered slightly upper-left, color bands dissolving outward horizontally into deep shadow at all edges",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+          "angle": "Straight-on, slightly elevated",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, ethereal foreground and background dissolve into pure gradient"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -176,27 +176,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_1920x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Discover the YG-100",
-      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "cta": "Play Your Legacy",
+      "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
       "flux_prompt": {
-        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "scene": "Vast color field dissolving from warm amber gold into deep oceanic blue-black, soft luminous haze drifting through mid-layer",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8",
         "color_palette": [
           "#B01020",
-          "#1A3A5C",
-          "#D4820A",
-          "#F5C97A",
-          "#1A1A1A",
-          "#E8D5B0"
+          "#1B3A5C",
+          "#D4882A",
+          "#0A0A0A",
+          "#C8D8E8",
+          "#8B6914"
         ],
-        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
-        "mood": "intimate, timeless, emotive, hushed, golden, precise",
-        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
-        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "lighting": "Single diffused warm amber source fading radially outward into cool oceanic darkness, soft gradient bloom at center",
+        "mood": "reverent, timeless, hushed, luminous, contemplative",
+        "background": "Deep teal-midnight vignette with a suspended amber glow at center, seamless gradient suited to instrument compositing",
+        "composition": "Radial bloom centered slightly upper-left, color bands dissolving outward horizontally into deep shadow at all edges",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+          "angle": "Straight-on, slightly elevated",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, ethereal foreground and background dissolve into pure gradient"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -216,27 +216,27 @@
       "render_path": null,
       "bg_image_path": "assets/generated-V2/guitar-1_ocean-blue_1080x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
-      "cta": "Discover the YG-100",
-      "creative_direction": "Golden hour warmth washes over the ocean-blue finish, amber light kissing the guitar's curves against dissolving shadow. Soft bokeh particles drift through the frame. No hard edges \u2014 only depth, warmth, and quiet precision.",
+      "cta": "Play Your Legacy",
+      "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
       "flux_prompt": {
-        "scene": "Warm amber light dissolving into deep shadow, soft luminous haze with drifting bokeh particles, golden hour color bleed",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8",
+        "scene": "Vast color field dissolving from warm amber gold into deep oceanic blue-black, soft luminous haze drifting through mid-layer",
+        "style": "Hasselblad X2D 100C, 90mm f/2.8",
         "color_palette": [
           "#B01020",
-          "#1A3A5C",
-          "#D4820A",
-          "#F5C97A",
-          "#1A1A1A",
-          "#E8D5B0"
+          "#1B3A5C",
+          "#D4882A",
+          "#0A0A0A",
+          "#C8D8E8",
+          "#8B6914"
         ],
-        "lighting": "Single diffused amber source fading right to left, warm gold core bleeding into cool shadow, soft luminous vignette",
-        "mood": "intimate, timeless, emotive, hushed, golden, precise",
-        "background": "Deep teal-to-shadow gradient with warm amber luminous core, fine art color field, rich tonal depth",
-        "composition": "Horizontal gradient bands \u2014 warm amber center bleeding outward into deep oceanic teal and soft black shadow",
+        "lighting": "Single diffused warm amber source fading radially outward into cool oceanic darkness, soft gradient bloom at center",
+        "mood": "reverent, timeless, hushed, luminous, contemplative",
+        "background": "Deep teal-midnight vignette with a suspended amber glow at center, seamless gradient suited to instrument compositing",
+        "composition": "Radial bloom centered slightly upper-left, color bands dissolving outward horizontally into deep shadow at all edges",
         "camera": {
-          "angle": "Straight-on, slightly elevated, centered",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow, soft bokeh bloom dissolving edges into luminous haze"
+          "angle": "Straight-on, slightly elevated",
+          "lens": "90mm f/2.8 medium format",
+          "depth_of_field": "Extremely shallow, ethereal foreground and background dissolve into pure gradient"
         }
       },
       "scene_direction_seed": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood",
@@ -257,26 +257,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_970x250_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
       "flux_prompt": {
-        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
-        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "scene": "Vast dark void dissolving upward into diffused haze, scattered bokeh orbs of warm gold and cool blue receding into infinity",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure composite",
         "color_palette": [
           "#0A0A0F",
           "#B01020",
+          "#1A1A2E",
           "#C8922A",
-          "#1A1228",
-          "#3D2040",
-          "#F0E8D0"
+          "#4A6FA5",
+          "#2A0A10"
         ],
-        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
-        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
-        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
-        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "lighting": "Multiple soft overhead sources diffused through atmospheric haze, no hard edges, gradients bleeding from deep crimson low to cool indigo high",
+        "mood": "epic, electric, nocturnal, vast, reverent, charged",
+        "background": "Deep black base fading through crimson mid-tones into diffused indigo-blue upper field, scattered luminous bokeh spheres throughout",
+        "composition": "Vertical gradient bands \u2014 dense darkness anchoring base, crimson bloom at lower-mid, dissolving bokeh constellations ascending to dark indigo zenith",
         "camera": {
-          "angle": "Low, slightly elevated, wide horizontal",
-          "lens": "85mm f/1.4 \u2014 extreme subject separation",
-          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+          "angle": "Low, slightly upward-tilted, wide field of view",
+          "lens": "85mm f/1.4 at maximum aperture",
+          "depth_of_field": "Extremely shallow \u2014 foreground and distance both dissolved into soft luminous abstraction"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -297,26 +297,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_1920x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
       "flux_prompt": {
-        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
-        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "scene": "Vast dark void dissolving upward into diffused haze, scattered bokeh orbs of warm gold and cool blue receding into infinity",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure composite",
         "color_palette": [
           "#0A0A0F",
           "#B01020",
+          "#1A1A2E",
           "#C8922A",
-          "#1A1228",
-          "#3D2040",
-          "#F0E8D0"
+          "#4A6FA5",
+          "#2A0A10"
         ],
-        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
-        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
-        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
-        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "lighting": "Multiple soft overhead sources diffused through atmospheric haze, no hard edges, gradients bleeding from deep crimson low to cool indigo high",
+        "mood": "epic, electric, nocturnal, vast, reverent, charged",
+        "background": "Deep black base fading through crimson mid-tones into diffused indigo-blue upper field, scattered luminous bokeh spheres throughout",
+        "composition": "Vertical gradient bands \u2014 dense darkness anchoring base, crimson bloom at lower-mid, dissolving bokeh constellations ascending to dark indigo zenith",
         "camera": {
-          "angle": "Low, slightly elevated, wide horizontal",
-          "lens": "85mm f/1.4 \u2014 extreme subject separation",
-          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+          "angle": "Low, slightly upward-tilted, wide field of view",
+          "lens": "85mm f/1.4 at maximum aperture",
+          "depth_of_field": "Extremely shallow \u2014 foreground and distance both dissolved into soft luminous abstraction"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -337,26 +337,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_midnight-black_1080x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena darkness anchors the scene. Midnight-black finish dissolves into the stage floor. Diffused overhead rigs scatter through haze, bokeh crowd lights bloom gold and crimson into infinite depth \u2014 electric, epic, no single hard source.",
+      "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
       "flux_prompt": {
-        "scene": "Vast dark void dissolving upward into scattered arena bokeh \u2014 warm gold and deep crimson light orbs receding into atmospheric haze",
-        "style": "Sony A1, 85mm f/1.4 GM, long exposure atmospheric blend",
+        "scene": "Vast dark void dissolving upward into diffused haze, scattered bokeh orbs of warm gold and cool blue receding into infinity",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure composite",
         "color_palette": [
           "#0A0A0F",
           "#B01020",
+          "#1A1A2E",
           "#C8922A",
-          "#1A1228",
-          "#3D2040",
-          "#F0E8D0"
+          "#4A6FA5",
+          "#2A0A10"
         ],
-        "lighting": "Multiple soft diffused overhead spill sources catch suspended haze; no hard beams; luminous gradient rising dark-to-ember from below",
-        "mood": "epic, electric, cinematic darkness, charged stillness, depth, grandeur",
-        "background": "Deep near-black foreground melting into mid-field crimson-gold bokeh bloom, upper field dissolving into cool violet-black infinity",
-        "composition": "Horizontal gradient bands \u2014 dense black base rising through crimson mid-glow into scattered gold bokeh field, radial depth recession",
+        "lighting": "Multiple soft overhead sources diffused through atmospheric haze, no hard edges, gradients bleeding from deep crimson low to cool indigo high",
+        "mood": "epic, electric, nocturnal, vast, reverent, charged",
+        "background": "Deep black base fading through crimson mid-tones into diffused indigo-blue upper field, scattered luminous bokeh spheres throughout",
+        "composition": "Vertical gradient bands \u2014 dense darkness anchoring base, crimson bloom at lower-mid, dissolving bokeh constellations ascending to dark indigo zenith",
         "camera": {
-          "angle": "Low, slightly elevated, wide horizontal",
-          "lens": "85mm f/1.4 \u2014 extreme subject separation",
-          "depth_of_field": "Razor-thin foreground plane, entire background dissolved into layered bokeh fields"
+          "angle": "Low, slightly upward-tilted, wide field of view",
+          "lens": "85mm f/1.4 at maximum aperture",
+          "depth_of_field": "Extremely shallow \u2014 foreground and distance both dissolved into soft luminous abstraction"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -377,26 +377,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_970x250_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
       "flux_prompt": {
-        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
-        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "scene": "Vast dark void dissolving upward into blooming bokeh halos of gold, crimson, and ice-blue \u2014 atmospheric haze catching diffused overhead light fields",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure blend",
         "color_palette": [
-          "#0A1628",
-          "#1B4F72",
-          "#5BA4CF",
+          "#0A0A12",
+          "#1B3A5C",
+          "#4CA8C8",
           "#B01020",
-          "#F5A623",
-          "#2C2C2C"
+          "#D4A030",
+          "#F0F4FF"
         ],
-        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
-        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
-        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
-        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "lighting": "Multiple soft overhead spot fields dissolving through haze, no hard beams \u2014 luminous gradient rising dark-to-bloom, warm gold and cool blue counter...",
+        "mood": "epic, electric, cinematic, vast, emotive, nocturnal",
+        "background": "Deep black-to-midnight-blue gradient base with rising field of soft bokeh orbs \u2014 rich, dark, and luminous for clean instrument compositing",
+        "composition": "Horizontal gradient bands \u2014 deep black at base rising through haze layers to dispersed bokeh crown, slight radial bloom at upper center",
         "camera": {
-          "angle": "Low, slightly elevated horizon, wide field of view",
-          "lens": "90mm f/2.8 medium telephoto",
-          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+          "angle": "Low, wide, slightly upward tilt \u2014 ground-level stage perspective looking into darkness and light",
+          "lens": "85mm f/1.4 GM, wide open",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark, mid-ground transitional, background fully dissolved into soft bokeh orbs"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -417,26 +417,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_1920x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
       "flux_prompt": {
-        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
-        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "scene": "Vast dark void dissolving upward into blooming bokeh halos of gold, crimson, and ice-blue \u2014 atmospheric haze catching diffused overhead light fields",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure blend",
         "color_palette": [
-          "#0A1628",
-          "#1B4F72",
-          "#5BA4CF",
+          "#0A0A12",
+          "#1B3A5C",
+          "#4CA8C8",
           "#B01020",
-          "#F5A623",
-          "#2C2C2C"
+          "#D4A030",
+          "#F0F4FF"
         ],
-        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
-        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
-        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
-        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "lighting": "Multiple soft overhead spot fields dissolving through haze, no hard beams \u2014 luminous gradient rising dark-to-bloom, warm gold and cool blue counter...",
+        "mood": "epic, electric, cinematic, vast, emotive, nocturnal",
+        "background": "Deep black-to-midnight-blue gradient base with rising field of soft bokeh orbs \u2014 rich, dark, and luminous for clean instrument compositing",
+        "composition": "Horizontal gradient bands \u2014 deep black at base rising through haze layers to dispersed bokeh crown, slight radial bloom at upper center",
         "camera": {
-          "angle": "Low, slightly elevated horizon, wide field of view",
-          "lens": "90mm f/2.8 medium telephoto",
-          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+          "angle": "Low, wide, slightly upward tilt \u2014 ground-level stage perspective looking into darkness and light",
+          "lens": "85mm f/1.4 GM, wide open",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark, mid-ground transitional, background fully dissolved into soft bokeh orbs"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -457,26 +457,26 @@
       "bg_image_path": "assets/generated-V2/guitar-2_ocean-blue_1080x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
-      "creative_direction": "Vast arena stage at night \u2014 deep charcoal floor receding into bokeh constellations of crowd lights and rig fixtures. Atmospheric haze diffuses multiple soft spotlights from above. The ocean-blue finish echoes the electric cool of the scene.",
+      "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
       "flux_prompt": {
-        "scene": "Vast dark field dissolving into luminous bokeh clusters \u2014 cool ocean blues and warm amber orbs suspended in deep atmospheric haze",
-        "style": "Hasselblad X2D 100C, 90mm f/2.8, long exposure color field",
+        "scene": "Vast dark void dissolving upward into blooming bokeh halos of gold, crimson, and ice-blue \u2014 atmospheric haze catching diffused overhead light fields",
+        "style": "Sony A1, 85mm f/1.4 GM, long exposure blend",
         "color_palette": [
-          "#0A1628",
-          "#1B4F72",
-          "#5BA4CF",
+          "#0A0A12",
+          "#1B3A5C",
+          "#4CA8C8",
           "#B01020",
-          "#F5A623",
-          "#2C2C2C"
+          "#D4A030",
+          "#F0F4FF"
         ],
-        "lighting": "Multiple diffused soft overhead sources caught in haze, no hard columns, gradients from deep charcoal at base to luminous blue-grey mist above",
-        "mood": "electric, epic, atmospheric, intimate vastness, charged anticipation",
-        "background": "Deep dark gradient base fading upward into drifting blue-teal luminous fog with scattered warm golden bokeh at midground and distance",
-        "composition": "Horizontal gradient bands \u2014 dense dark foreground base rising through atmospheric mid-haze into dispersed bokeh field at upper register",
+        "lighting": "Multiple soft overhead spot fields dissolving through haze, no hard beams \u2014 luminous gradient rising dark-to-bloom, warm gold and cool blue counter...",
+        "mood": "epic, electric, cinematic, vast, emotive, nocturnal",
+        "background": "Deep black-to-midnight-blue gradient base with rising field of soft bokeh orbs \u2014 rich, dark, and luminous for clean instrument compositing",
+        "composition": "Horizontal gradient bands \u2014 deep black at base rising through haze layers to dispersed bokeh crown, slight radial bloom at upper center",
         "camera": {
-          "angle": "Low, slightly elevated horizon, wide field of view",
-          "lens": "90mm f/2.8 medium telephoto",
-          "depth_of_field": "Extremely shallow \u2014 foreground dark and sharp, entire mid and background dissolves into soft luminous bokeh"
+          "angle": "Low, wide, slightly upward tilt \u2014 ground-level stage perspective looking into darkness and light",
+          "lens": "85mm f/1.4 GM, wide open",
+          "depth_of_field": "Extremely shallow \u2014 foreground dark, mid-ground transitional, background fully dissolved into soft bokeh orbs"
         }
       },
       "scene_direction_seed": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column",
@@ -497,28 +497,29 @@
       "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_970x250_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "scene": "Vast dark void dissolving into slow crimson and obsidian gradients, suspended dust motes catching faint directional light",
         "style": "Hasselblad X2D 100C, 90mm f/3.2",
         "color_palette": [
-          "#0A0A0C",
-          "#1A1A1F",
+          "#0A0A0F",
           "#B01020",
-          "#2C1018",
-          "#C8C8CC"
+          "#1C0A0E",
+          "#2A0D15",
+          "#4A1020",
+          "#C8C8D0"
         ],
-        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
-        "mood": "austere, precise, smoldering, meditative, inevitable",
-        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
-        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "lighting": "Single raking light source grazes a textured surface, bleeding into deep crimson mid-ground, ambient glow fading to black",
+        "mood": "brooding, precise, emotive, tension, refined restraint",
+        "background": "Seamless deep obsidian-to-crimson gradient field, subtle surface texture sheen, floating dust particles, no geometry",
+        "composition": "Horizontal gradient bands darkest at edges, crimson bloom centered low, radial dust particle haze drifting upward",
         "camera": {
-          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "angle": "Straight-on, slightly low horizon",
           "lens": "90mm f/3.2 medium format",
-          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+          "depth_of_field": "Extremely shallow, foreground dust sharp, gradient dissolves softly into black"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -536,28 +537,29 @@
       "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_1920x1080_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "scene": "Vast dark void dissolving into slow crimson and obsidian gradients, suspended dust motes catching faint directional light",
         "style": "Hasselblad X2D 100C, 90mm f/3.2",
         "color_palette": [
-          "#0A0A0C",
-          "#1A1A1F",
+          "#0A0A0F",
           "#B01020",
-          "#2C1018",
-          "#C8C8CC"
+          "#1C0A0E",
+          "#2A0D15",
+          "#4A1020",
+          "#C8C8D0"
         ],
-        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
-        "mood": "austere, precise, smoldering, meditative, inevitable",
-        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
-        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "lighting": "Single raking light source grazes a textured surface, bleeding into deep crimson mid-ground, ambient glow fading to black",
+        "mood": "brooding, precise, emotive, tension, refined restraint",
+        "background": "Seamless deep obsidian-to-crimson gradient field, subtle surface texture sheen, floating dust particles, no geometry",
+        "composition": "Horizontal gradient bands darkest at edges, crimson bloom centered low, radial dust particle haze drifting upward",
         "camera": {
-          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "angle": "Straight-on, slightly low horizon",
           "lens": "90mm f/3.2 medium format",
-          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+          "depth_of_field": "Extremely shallow, foreground dust sharp, gradient dissolves softly into black"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -575,28 +577,29 @@
       "bg_image_path": "assets/generated-V2/guitar-3_midnight-black_1080x1080_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the midnight-black polished finish. Deep controlled shadows anchor the composition. Refined, still, and inevitable.",
+      "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a slow crimson-to-obsidian gradient, weightless and infinite, with a whisper of cool silver luminance",
+        "scene": "Vast dark void dissolving into slow crimson and obsidian gradients, suspended dust motes catching faint directional light",
         "style": "Hasselblad X2D 100C, 90mm f/3.2",
         "color_palette": [
-          "#0A0A0C",
-          "#1A1A1F",
+          "#0A0A0F",
           "#B01020",
-          "#2C1018",
-          "#C8C8CC"
+          "#1C0A0E",
+          "#2A0D15",
+          "#4A1020",
+          "#C8C8D0"
         ],
-        "lighting": "Single distant soft raking source from far left, spilling a gentle silver bloom across a polished near-black surface, fading to pure shadow",
-        "mood": "austere, precise, smoldering, meditative, inevitable",
-        "background": "Seamless color field: deep obsidian bleeding into muted crimson at one edge, soft silver gradient band \u2014 pure abstract, no surfaces or edges",
-        "composition": "Horizontal gradient bands \u2014 darkest at top, slow crimson bloom emerging lower-left, silver luminance feathering across center-right",
+        "lighting": "Single raking light source grazes a textured surface, bleeding into deep crimson mid-ground, ambient glow fading to black",
+        "mood": "brooding, precise, emotive, tension, refined restraint",
+        "background": "Seamless deep obsidian-to-crimson gradient field, subtle surface texture sheen, floating dust particles, no geometry",
+        "composition": "Horizontal gradient bands darkest at edges, crimson bloom centered low, radial dust particle haze drifting upward",
         "camera": {
-          "angle": "Frontal, slightly elevated, perfectly level horizon",
+          "angle": "Straight-on, slightly low horizon",
           "lens": "90mm f/3.2 medium format",
-          "depth_of_field": "Extremely shallow, abstract gradient dissolves softly at both edges"
+          "depth_of_field": "Extremely shallow, foreground dust sharp, gradient dissolves softly into black"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -612,31 +615,31 @@
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
       "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_970x250_bg.png",
-      "tagline": "Precision Meets Passion.",
+      "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
-        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "scene": "Vast dark void with slow ocean-blue luminous gradients dissolving into near-black, faint crimson glow rising from below, suspended dust motes",
+        "style": "Hasselblad X2D 100C, 110mm f/3.5, medium format fine art color field",
         "color_palette": [
-          "#0A0C10",
-          "#1A3A4A",
-          "#2E6880",
-          "#B0C8D4",
+          "#0A1628",
+          "#1A3A5C",
+          "#2E6A8E",
           "#B01020",
-          "#1C1014"
+          "#C8D8E8",
+          "#050810"
         ],
-        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
-        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
-        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
-        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "lighting": "Single raking low-angle light source casting long soft gradients, crimson undertone bleeding at base, cool blue luminance rising upward",
+        "mood": "meditative, tense, precise, emotive, hushed, cinematic depth",
+        "background": "Seamless deep void, velvet dark tones with slow ocean-blue color field gradient, no edges or surfaces, pure atmospheric depth",
+        "composition": "Vertical luminous gradient band centered, deep dark flanking fields, subtle radial bloom at mid-frame, horizontal dust particle drift",
         "camera": {
-          "angle": "Straight-on parallel plane, slightly elevated",
-          "lens": "Hasselblad XCD 90mm f/3.5",
-          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+          "angle": "Dead-on frontal, imperceptibly elevated",
+          "lens": "Hasselblad XCD 110mm f/3.5",
+          "depth_of_field": "Extremely shallow, foreground and background dissolving into soft bokeh, razor-thin focal plane at center gradient bloom"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -652,31 +655,31 @@
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
       "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_1920x1080_bg.png",
-      "tagline": "Precision Meets Passion.",
+      "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
-        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "scene": "Vast dark void with slow ocean-blue luminous gradients dissolving into near-black, faint crimson glow rising from below, suspended dust motes",
+        "style": "Hasselblad X2D 100C, 110mm f/3.5, medium format fine art color field",
         "color_palette": [
-          "#0A0C10",
-          "#1A3A4A",
-          "#2E6880",
-          "#B0C8D4",
+          "#0A1628",
+          "#1A3A5C",
+          "#2E6A8E",
           "#B01020",
-          "#1C1014"
+          "#C8D8E8",
+          "#050810"
         ],
-        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
-        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
-        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
-        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "lighting": "Single raking low-angle light source casting long soft gradients, crimson undertone bleeding at base, cool blue luminance rising upward",
+        "mood": "meditative, tense, precise, emotive, hushed, cinematic depth",
+        "background": "Seamless deep void, velvet dark tones with slow ocean-blue color field gradient, no edges or surfaces, pure atmospheric depth",
+        "composition": "Vertical luminous gradient band centered, deep dark flanking fields, subtle radial bloom at mid-frame, horizontal dust particle drift",
         "camera": {
-          "angle": "Straight-on parallel plane, slightly elevated",
-          "lens": "Hasselblad XCD 90mm f/3.5",
-          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+          "angle": "Dead-on frontal, imperceptibly elevated",
+          "lens": "Hasselblad XCD 110mm f/3.5",
+          "depth_of_field": "Extremely shallow, foreground and background dissolving into soft bokeh, razor-thin focal plane at center gradient bloom"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -692,31 +695,31 @@
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
       "bg_image_path": "assets/generated-V2/guitar-3_ocean-blue_1080x1080_bg.png",
-      "tagline": "Precision Meets Passion.",
+      "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
-      "creative_direction": "Near-black seamless void with a single raking soft light from the far left, casting a slow luminous gradient across the ocean-blue polished finish. Deep shadow on the right anchors the composition. Controlled, refined, and quietly emotive.",
+      "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
       "flux_prompt": {
-        "scene": "Vast near-black void dissolving into a soft oceanic gradient, a whisper of crimson warmth bleeding at one edge",
-        "style": "Hasselblad X2D 100C, 90mm f/3.5, medium format color field",
+        "scene": "Vast dark void with slow ocean-blue luminous gradients dissolving into near-black, faint crimson glow rising from below, suspended dust motes",
+        "style": "Hasselblad X2D 100C, 110mm f/3.5, medium format fine art color field",
         "color_palette": [
-          "#0A0C10",
-          "#1A3A4A",
-          "#2E6880",
-          "#B0C8D4",
+          "#0A1628",
+          "#1A3A5C",
+          "#2E6A8E",
           "#B01020",
-          "#1C1014"
+          "#C8D8E8",
+          "#050810"
         ],
-        "lighting": "Single far-side raking soft source, slow gradient from cool ocean-blue highlight to controlled near-black shadow",
-        "mood": "austere, emotive, precise, hushed luxury, restrained tension",
-        "background": "Deep seamless color field \u2014 near-black to oceanic teal, with a faint crimson luminous bleed at the far edge",
-        "composition": "Horizontal gradient sweep left to right, dark mass at right, soft light bloom at far left, subtle vignette perimeter",
+        "lighting": "Single raking low-angle light source casting long soft gradients, crimson undertone bleeding at base, cool blue luminance rising upward",
+        "mood": "meditative, tense, precise, emotive, hushed, cinematic depth",
+        "background": "Seamless deep void, velvet dark tones with slow ocean-blue color field gradient, no edges or surfaces, pure atmospheric depth",
+        "composition": "Vertical luminous gradient band centered, deep dark flanking fields, subtle radial bloom at mid-frame, horizontal dust particle drift",
         "camera": {
-          "angle": "Straight-on parallel plane, slightly elevated",
-          "lens": "Hasselblad XCD 90mm f/3.5",
-          "depth_of_field": "Extremely shallow, micro-fine focus plane, soft dissolution front and rear"
+          "angle": "Dead-on frontal, imperceptibly elevated",
+          "lens": "Hasselblad XCD 110mm f/3.5",
+          "depth_of_field": "Extremely shallow, foreground and background dissolving into soft bokeh, razor-thin focal plane at center gradient bloom"
         }
       },
-      "scene_direction_seed": "minimal dark studio, near-black seamless backdrop, single soft raking light from far side creating a gentle gradient across a polished surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, no architecture visible",
+      "scene_direction_seed": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible",
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
@@ -732,28 +735,28 @@
       "product_image_path": "assets/piano1.png",
       "render_path": null,
       "bg_image_path": null,
-      "tagline": "Where notes become music.",
+      "tagline": "Where Notes Become Music",
       "cta": "Discover the YP-100",
-      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "creative_direction": "Intimate recital hall at night shot from stage level. Warm amber house lights dissolve into deep shadow across the ebony finish. Haze catches scattered light \u2014 no hard sources, only diffused warmth fading into velvet dark.",
       "flux_prompt": {
-        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "scene": "Soft amber light fields dissolving into deep shadow, warm haze suspended mid-air, scattered luminous pools bleeding into darkness",
         "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#D4782A",
-          "#F2A84B",
-          "#1A1008",
-          "#2E1B0A",
-          "#0A0A0A"
+          "#1A0A00",
+          "#2B1500",
+          "#C47A2A",
+          "#0D0D0D",
+          "#8B4010"
         ],
-        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
-        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
-        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
-        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "lighting": "Diffused warm amber gradients, no hard sources, luminous haze dissolving into near-black shadow at edges",
+        "mood": "quiet, focused, emotive, velvet darkness, intimate warmth",
+        "background": "Deep ebony-black void with suspended amber haze gradients, rich enough to anchor a polished dark instrument",
+        "composition": "Horizontal luminous bands low in frame, radial amber bloom center-left, deep shadow consuming upper and lower thirds",
         "camera": {
-          "angle": "Stage-level horizontal, slightly upward tilt",
-          "lens": "Hasselblad XCD 110mm f/2.8",
-          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+          "angle": "Stage level, slightly upward tilt",
+          "lens": "110mm f/2.8",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background fully dissolved, mid-field barely resolved"
         }
       },
       "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
@@ -772,28 +775,28 @@
       "product_image_path": "assets/piano1.png",
       "render_path": null,
       "bg_image_path": null,
-      "tagline": "Where notes become music.",
+      "tagline": "Where Notes Become Music",
       "cta": "Discover the YP-100",
-      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "creative_direction": "Intimate recital hall at night shot from stage level. Warm amber house lights dissolve into deep shadow across the ebony finish. Haze catches scattered light \u2014 no hard sources, only diffused warmth fading into velvet dark.",
       "flux_prompt": {
-        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "scene": "Soft amber light fields dissolving into deep shadow, warm haze suspended mid-air, scattered luminous pools bleeding into darkness",
         "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#D4782A",
-          "#F2A84B",
-          "#1A1008",
-          "#2E1B0A",
-          "#0A0A0A"
+          "#1A0A00",
+          "#2B1500",
+          "#C47A2A",
+          "#0D0D0D",
+          "#8B4010"
         ],
-        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
-        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
-        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
-        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "lighting": "Diffused warm amber gradients, no hard sources, luminous haze dissolving into near-black shadow at edges",
+        "mood": "quiet, focused, emotive, velvet darkness, intimate warmth",
+        "background": "Deep ebony-black void with suspended amber haze gradients, rich enough to anchor a polished dark instrument",
+        "composition": "Horizontal luminous bands low in frame, radial amber bloom center-left, deep shadow consuming upper and lower thirds",
         "camera": {
-          "angle": "Stage-level horizontal, slightly upward tilt",
-          "lens": "Hasselblad XCD 110mm f/2.8",
-          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+          "angle": "Stage level, slightly upward tilt",
+          "lens": "110mm f/2.8",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background fully dissolved, mid-field barely resolved"
         }
       },
       "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
@@ -812,28 +815,28 @@
       "product_image_path": "assets/piano1.png",
       "render_path": null,
       "bg_image_path": null,
-      "tagline": "Where notes become music.",
+      "tagline": "Where Notes Become Music",
       "cta": "Discover the YP-100",
-      "creative_direction": "Ebony finish YP-100 floats against a dissolving amber-to-shadow gradient. Warm house-light bokeh halos bleed softly behind. Haze diffuses depth. No hard edges \u2014 only luminous warmth surrendering to dark.",
+      "creative_direction": "Intimate recital hall at night shot from stage level. Warm amber house lights dissolve into deep shadow across the ebony finish. Haze catches scattered light \u2014 no hard sources, only diffused warmth fading into velvet dark.",
       "flux_prompt": {
-        "scene": "Vast color field of dissolving amber orbs fading into deep charcoal void, suspended haze catching warm scattered light, no forms",
+        "scene": "Soft amber light fields dissolving into deep shadow, warm haze suspended mid-air, scattered luminous pools bleeding into darkness",
         "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#D4782A",
-          "#F2A84B",
-          "#1A1008",
-          "#2E1B0A",
-          "#0A0A0A"
+          "#1A0A00",
+          "#2B1500",
+          "#C47A2A",
+          "#0D0D0D",
+          "#8B4010"
         ],
-        "lighting": "Soft multisource amber glow diffused through atmospheric haze, luminosity fading radially into near-black at edges",
-        "mood": "hushed, reverent, intimate, focused, warmth dissolving into darkness",
-        "background": "Deep ebony-to-amber gradient field with floating bokeh halos, suited for compositing a dark polished instrument",
-        "composition": "Radial gradient bloom centered low-left, warm amber core bleeding outward, deep shadow dominating upper and right thirds",
+        "lighting": "Diffused warm amber gradients, no hard sources, luminous haze dissolving into near-black shadow at edges",
+        "mood": "quiet, focused, emotive, velvet darkness, intimate warmth",
+        "background": "Deep ebony-black void with suspended amber haze gradients, rich enough to anchor a polished dark instrument",
+        "composition": "Horizontal luminous bands low in frame, radial amber bloom center-left, deep shadow consuming upper and lower thirds",
         "camera": {
-          "angle": "Stage-level horizontal, slightly upward tilt",
-          "lens": "Hasselblad XCD 110mm f/2.8",
-          "depth_of_field": "Extreme shallow \u2014 ambient orbs fully dissolved, foreground gradient softly resolved"
+          "angle": "Stage level, slightly upward tilt",
+          "lens": "110mm f/2.8",
+          "depth_of_field": "Extremely shallow \u2014 foreground and background fully dissolved, mid-field barely resolved"
         }
       },
       "scene_direction_seed": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow",
@@ -854,26 +857,26 @@
       "bg_image_path": null,
       "tagline": "Where Mastery Finds Its Voice",
       "cta": "Discover the YP-200",
-      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "creative_direction": "Ebony grand piano anchors a dusky salon bathed in chandelier warmth. Deep burgundy velvet and gold filigree blur softly behind. Candlelight skims the piano's lacquered lid, creating liquid reflections. No hard shadows \u2014 only opulent, diffused glow.",
       "flux_prompt": {
-        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "scene": "Dissolving fields of deep burgundy and molten amber, bleeding into obsidian darkness at the edges, warmth radiating from an invisible center",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#1A0A0E",
-          "#C8922A",
-          "#4B1C24",
-          "#F5DFA0",
-          "#2C1A0E"
+          "#1A0A0C",
+          "#C8860A",
+          "#3D1A10",
+          "#F5D98B",
+          "#0D0608"
         ],
-        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
-        "mood": "opulent, hushed, reverent, timeless, emotive",
-        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
-        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "lighting": "Radial warm bloom at center fading to near-black crimson periphery, soft aureate halos, no hard terminator lines",
+        "mood": "opulent, hushed, reverent, timeless, smoldering",
+        "background": "Abstract deep-field gradient \u2014 obsidian to burgundy to gold \u2014 smooth and depthless, ideal for compositing a dark lacquered instrument",
+        "composition": "Radial luminous bloom centered slightly above midpoint, dissolving outward into rich vignette darkness",
         "camera": {
-          "angle": "Frontal, slightly low horizon",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+          "angle": "Straight-on, perfectly level, infinity focus on the light field",
+          "lens": "Hasselblad XCD 80mm f/2.8",
+          "depth_of_field": "Entirely soft \u2014 no focal plane, pure luminous abstraction throughout"
         }
       },
       "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
@@ -894,26 +897,26 @@
       "bg_image_path": null,
       "tagline": "Where Mastery Finds Its Voice",
       "cta": "Discover the YP-200",
-      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "creative_direction": "Ebony grand piano anchors a dusky salon bathed in chandelier warmth. Deep burgundy velvet and gold filigree blur softly behind. Candlelight skims the piano's lacquered lid, creating liquid reflections. No hard shadows \u2014 only opulent, diffused glow.",
       "flux_prompt": {
-        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "scene": "Dissolving fields of deep burgundy and molten amber, bleeding into obsidian darkness at the edges, warmth radiating from an invisible center",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#1A0A0E",
-          "#C8922A",
-          "#4B1C24",
-          "#F5DFA0",
-          "#2C1A0E"
+          "#1A0A0C",
+          "#C8860A",
+          "#3D1A10",
+          "#F5D98B",
+          "#0D0608"
         ],
-        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
-        "mood": "opulent, hushed, reverent, timeless, emotive",
-        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
-        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "lighting": "Radial warm bloom at center fading to near-black crimson periphery, soft aureate halos, no hard terminator lines",
+        "mood": "opulent, hushed, reverent, timeless, smoldering",
+        "background": "Abstract deep-field gradient \u2014 obsidian to burgundy to gold \u2014 smooth and depthless, ideal for compositing a dark lacquered instrument",
+        "composition": "Radial luminous bloom centered slightly above midpoint, dissolving outward into rich vignette darkness",
         "camera": {
-          "angle": "Frontal, slightly low horizon",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+          "angle": "Straight-on, perfectly level, infinity focus on the light field",
+          "lens": "Hasselblad XCD 80mm f/2.8",
+          "depth_of_field": "Entirely soft \u2014 no focal plane, pure luminous abstraction throughout"
         }
       },
       "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
@@ -934,26 +937,26 @@
       "bg_image_path": null,
       "tagline": "Where Mastery Finds Its Voice",
       "cta": "Discover the YP-200",
-      "creative_direction": "Ebony grand piano anchors a twilight salon. Warm candlelight and chandelier bokeh melt across dark parquet. Burgundy and gold envelop the frame in old-world opulence \u2014 no hard shadows, only luminous drift.",
+      "creative_direction": "Ebony grand piano anchors a dusky salon bathed in chandelier warmth. Deep burgundy velvet and gold filigree blur softly behind. Candlelight skims the piano's lacquered lid, creating liquid reflections. No hard shadows \u2014 only opulent, diffused glow.",
       "flux_prompt": {
-        "scene": "Dissolving halos of amber and deep crimson light bleeding into velvety darkness, slow luminous drift, no edges",
-        "style": "Hasselblad X2D 100C, 110mm f/2.8, long exposure color field",
+        "scene": "Dissolving fields of deep burgundy and molten amber, bleeding into obsidian darkness at the edges, warmth radiating from an invisible center",
+        "style": "Hasselblad X2D 100C, 80mm f/2.8, long exposure color field",
         "color_palette": [
           "#B01020",
-          "#1A0A0E",
-          "#C8922A",
-          "#4B1C24",
-          "#F5DFA0",
-          "#2C1A0E"
+          "#1A0A0C",
+          "#C8860A",
+          "#3D1A10",
+          "#F5D98B",
+          "#0D0608"
         ],
-        "lighting": "Soft radial bloom of warm gold at center dissolving outward into deep burgundy-black, candlelight warmth",
-        "mood": "opulent, hushed, reverent, timeless, emotive",
-        "background": "Deep ebony-to-crimson gradient with floating gold luminous orbs, rich enough for a dark piano composite",
-        "composition": "Radial glow centered low-left, dissolving into dark vignette edges, horizontal amber drift band mid-frame",
+        "lighting": "Radial warm bloom at center fading to near-black crimson periphery, soft aureate halos, no hard terminator lines",
+        "mood": "opulent, hushed, reverent, timeless, smoldering",
+        "background": "Abstract deep-field gradient \u2014 obsidian to burgundy to gold \u2014 smooth and depthless, ideal for compositing a dark lacquered instrument",
+        "composition": "Radial luminous bloom centered slightly above midpoint, dissolving outward into rich vignette darkness",
         "camera": {
-          "angle": "Frontal, slightly low horizon",
-          "lens": "110mm f/2.8 medium format",
-          "depth_of_field": "Extremely shallow \u2014 foreground and edges fall into pure luminous blur"
+          "angle": "Straight-on, perfectly level, infinity focus on the light field",
+          "lens": "Hasselblad XCD 80mm f/2.8",
+          "depth_of_field": "Entirely soft \u2014 no focal plane, pure luminous abstraction throughout"
         }
       },
       "scene_direction_seed": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows",
@@ -974,26 +977,25 @@
       "bg_image_path": null,
       "tagline": "Crafted for the World Stage.",
       "cta": "Discover the YP-300",
-      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "creative_direction": "Ebony grand piano emerges from a vast, dark concert hall shot at floor level. House and rig lights dissolve into deep bokeh. Atmospheric haze, polished black stage floor, monumental depth. Reverential, epic, crimson-tinged shadow.",
       "flux_prompt": {
-        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
-        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "scene": "Vast dissolving light fields suspended in deep darkness, atmospheric haze catching diffused warm and crimson luminescence, infinite depth",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
         "color_palette": [
-          "#0A0A0A",
+          "#0A0A0C",
           "#B01020",
-          "#C8893A",
-          "#1C1014",
-          "#E8D5B0",
-          "#2A0810"
+          "#1C1010",
+          "#E8C89A",
+          "#2A1A1F"
         ],
-        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
-        "mood": "reverential, monumental, epic, hushed, transcendent",
-        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
-        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "lighting": "Scattered rig lights bloom into wide bokeh halos, deep crimson gradients bleeding into near-black, gossamer haze veiling distant warm glows",
+        "mood": "reverential, monumental, epic, hushed, luminous darkness",
+        "background": "Deep color-field darkness with suspended crimson and amber light blooms, rich tonal gradients fading to absolute black at edges",
+        "composition": "Horizontal gradient bands of diffused light rising from deep black base, radial bloom centrally placed, vignette pulling hard to edges",
         "camera": {
-          "angle": "Extreme low angle, near floor level, tilted slightly upward",
-          "lens": "Hasselblad XCD 55mm f/2.8",
-          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+          "angle": "Extreme low angle, floor-level perspective tilted slightly upward",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Razor-thin foreground, entire mid and background dissolving into wide creamy bokeh"
         }
       },
       "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
@@ -1014,26 +1016,25 @@
       "bg_image_path": null,
       "tagline": "Crafted for the World Stage.",
       "cta": "Discover the YP-300",
-      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "creative_direction": "Ebony grand piano emerges from a vast, dark concert hall shot at floor level. House and rig lights dissolve into deep bokeh. Atmospheric haze, polished black stage floor, monumental depth. Reverential, epic, crimson-tinged shadow.",
       "flux_prompt": {
-        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
-        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "scene": "Vast dissolving light fields suspended in deep darkness, atmospheric haze catching diffused warm and crimson luminescence, infinite depth",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
         "color_palette": [
-          "#0A0A0A",
+          "#0A0A0C",
           "#B01020",
-          "#C8893A",
-          "#1C1014",
-          "#E8D5B0",
-          "#2A0810"
+          "#1C1010",
+          "#E8C89A",
+          "#2A1A1F"
         ],
-        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
-        "mood": "reverential, monumental, epic, hushed, transcendent",
-        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
-        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "lighting": "Scattered rig lights bloom into wide bokeh halos, deep crimson gradients bleeding into near-black, gossamer haze veiling distant warm glows",
+        "mood": "reverential, monumental, epic, hushed, luminous darkness",
+        "background": "Deep color-field darkness with suspended crimson and amber light blooms, rich tonal gradients fading to absolute black at edges",
+        "composition": "Horizontal gradient bands of diffused light rising from deep black base, radial bloom centrally placed, vignette pulling hard to edges",
         "camera": {
-          "angle": "Extreme low angle, near floor level, tilted slightly upward",
-          "lens": "Hasselblad XCD 55mm f/2.8",
-          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+          "angle": "Extreme low angle, floor-level perspective tilted slightly upward",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Razor-thin foreground, entire mid and background dissolving into wide creamy bokeh"
         }
       },
       "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
@@ -1054,26 +1055,25 @@
       "bg_image_path": null,
       "tagline": "Crafted for the World Stage.",
       "cta": "Discover the YP-300",
-      "creative_direction": "Ebony grand piano emerges from vast, dark stage depth. Ultra-wide low angle captures diffused rig lights dissolving into auditorium void. Atmospheric haze and crimson undertones invoke reverence and monumental scale.",
+      "creative_direction": "Ebony grand piano emerges from a vast, dark concert hall shot at floor level. House and rig lights dissolve into deep bokeh. Atmospheric haze, polished black stage floor, monumental depth. Reverential, epic, crimson-tinged shadow.",
       "flux_prompt": {
-        "scene": "Vast luminous void dissolving from deep black into diffused amber and crimson halos, atmospheric haze catching scattered light beams",
-        "style": "Hasselblad X2D 100C, 55mm f/2.8, long exposure color field",
+        "scene": "Vast dissolving light fields suspended in deep darkness, atmospheric haze catching diffused warm and crimson luminescence, infinite depth",
+        "style": "Hasselblad X2D 100C, 110mm f/2.8",
         "color_palette": [
-          "#0A0A0A",
+          "#0A0A0C",
           "#B01020",
-          "#C8893A",
-          "#1C1014",
-          "#E8D5B0",
-          "#2A0810"
+          "#1C1010",
+          "#E8C89A",
+          "#2A1A1F"
         ],
-        "lighting": "Radial bloom of warm amber rig light dissolving into crimson penumbra, deep vignette edges fading to absolute black",
-        "mood": "reverential, monumental, epic, hushed, transcendent",
-        "background": "Deep black color field with soft radial crimson-amber luminance bloom, richly gradated for dark ebony instrument composite",
-        "composition": "Radial gradient centered low, light blooming upward into darkness, strong vignette framing with luminous core",
+        "lighting": "Scattered rig lights bloom into wide bokeh halos, deep crimson gradients bleeding into near-black, gossamer haze veiling distant warm glows",
+        "mood": "reverential, monumental, epic, hushed, luminous darkness",
+        "background": "Deep color-field darkness with suspended crimson and amber light blooms, rich tonal gradients fading to absolute black at edges",
+        "composition": "Horizontal gradient bands of diffused light rising from deep black base, radial bloom centrally placed, vignette pulling hard to edges",
         "camera": {
-          "angle": "Extreme low angle, near floor level, tilted slightly upward",
-          "lens": "Hasselblad XCD 55mm f/2.8",
-          "depth_of_field": "Extremely shallow, foreground and edges dissolving into total bokeh, only central light bloom in soft focus"
+          "angle": "Extreme low angle, floor-level perspective tilted slightly upward",
+          "lens": "110mm f/2.8 medium format",
+          "depth_of_field": "Razor-thin foreground, entire mid and background dissolving into wide creamy bokeh"
         }
       },
       "scene_direction_seed": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood",
@@ -1094,26 +1094,26 @@
       "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_970x250_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
-      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
       "flux_prompt": {
-        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "scene": "Dissolving amber and ember light fields, smoke haze catching gold, warm orbs fading into deep charcoal darkness",
         "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
         "color_palette": [
           "#B01020",
-          "#D4820A",
-          "#F5C842",
-          "#1A0A00",
-          "#3B1F08",
-          "#7C4A10"
+          "#C87820",
+          "#F5C050",
+          "#2A1A0A",
+          "#6B3A10",
+          "#F0E8D0"
         ],
-        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
-        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
-        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
-        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "lighting": "Scattered warm candlelight halos, soft gold gradients dissolving into near-black, no hard sources, luminous amber haze",
+        "mood": "intimate, soulful, late-night, smoky, warm, cinematic, breathless",
+        "background": "Deep charcoal void with floating amber and crimson light orbs in wide bokeh, gold smoke wisps, rich warm darkness",
+        "composition": "Radial warm light bloom at center-right, fading to deep shadow at edges, horizontal smoke drift layers",
         "camera": {
-          "angle": "Straight-on, level",
+          "angle": "Straight-on, slightly low",
           "lens": "Noctilux-M 50mm f/0.95 ASPH",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+          "depth_of_field": "Extreme shallow \u2014 background fully dissolved into soft bokeh spheres and warm color wash"
         }
       },
       "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",
@@ -1134,26 +1134,26 @@
       "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_1920x1080_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
-      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
       "flux_prompt": {
-        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "scene": "Dissolving amber and ember light fields, smoke haze catching gold, warm orbs fading into deep charcoal darkness",
         "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
         "color_palette": [
           "#B01020",
-          "#D4820A",
-          "#F5C842",
-          "#1A0A00",
-          "#3B1F08",
-          "#7C4A10"
+          "#C87820",
+          "#F5C050",
+          "#2A1A0A",
+          "#6B3A10",
+          "#F0E8D0"
         ],
-        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
-        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
-        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
-        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "lighting": "Scattered warm candlelight halos, soft gold gradients dissolving into near-black, no hard sources, luminous amber haze",
+        "mood": "intimate, soulful, late-night, smoky, warm, cinematic, breathless",
+        "background": "Deep charcoal void with floating amber and crimson light orbs in wide bokeh, gold smoke wisps, rich warm darkness",
+        "composition": "Radial warm light bloom at center-right, fading to deep shadow at edges, horizontal smoke drift layers",
         "camera": {
-          "angle": "Straight-on, level",
+          "angle": "Straight-on, slightly low",
           "lens": "Noctilux-M 50mm f/0.95 ASPH",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+          "depth_of_field": "Extreme shallow \u2014 background fully dissolved into soft bokeh spheres and warm color wash"
         }
       },
       "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",
@@ -1174,26 +1174,26 @@
       "bg_image_path": "assets/generated-V2/saxophone-1_gold-lacquer_1080x1080_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
-      "creative_direction": "Deep amber and smoldering gold bleed through smoke haze, evoking a late-night jazz club. The YS-100's gold lacquer catches warm candlelight, glowing against soft bokeh halos and dark, receding warmth.",
+      "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
       "flux_prompt": {
-        "scene": "Dissolving fields of amber, molten gold, and deep shadow \u2014 smoke-diffused light blooms floating in warm darkness",
+        "scene": "Dissolving amber and ember light fields, smoke haze catching gold, warm orbs fading into deep charcoal darkness",
         "style": "Leica M11, Noctilux-M 50mm f/0.95 ASPH",
         "color_palette": [
           "#B01020",
-          "#D4820A",
-          "#F5C842",
-          "#1A0A00",
-          "#3B1F08",
-          "#7C4A10"
+          "#C87820",
+          "#F5C050",
+          "#2A1A0A",
+          "#6B3A10",
+          "#F0E8D0"
         ],
-        "lighting": "Scattered warm candlelight halations, soft gold gradients dissolving into deep brown-black shadow, no hard edges",
-        "mood": "intimate, smoky, soulful, late-night warmth, golden reverie",
-        "background": "Vertical gradient from deep crimson-black at base rising through smoked amber to diffused gold bloom at center",
-        "composition": "Radial bokeh bloom centered slightly high, warm light density fading outward into near-black vignette edges",
+        "lighting": "Scattered warm candlelight halos, soft gold gradients dissolving into near-black, no hard sources, luminous amber haze",
+        "mood": "intimate, soulful, late-night, smoky, warm, cinematic, breathless",
+        "background": "Deep charcoal void with floating amber and crimson light orbs in wide bokeh, gold smoke wisps, rich warm darkness",
+        "composition": "Radial warm light bloom at center-right, fading to deep shadow at edges, horizontal smoke drift layers",
         "camera": {
-          "angle": "Straight-on, level",
+          "angle": "Straight-on, slightly low",
           "lens": "Noctilux-M 50mm f/0.95 ASPH",
-          "depth_of_field": "Extremely shallow \u2014 foreground and background dissolved into creamy bokeh, only central light bloom retains form"
+          "depth_of_field": "Extreme shallow \u2014 background fully dissolved into soft bokeh spheres and warm color wash"
         }
       },
       "scene_direction_seed": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth",

@@ -153,6 +153,9 @@ def main():
     parser.add_argument("--product-line", default=None,
                         help="Only generate for combos matching this product_line (e.g. 'guitar'). "
                              "Manifest is partially updated (only matching variants get bg_image_path written).")
+    parser.add_argument("--model-id", default=None,
+                        help="Only generate for a specific model_id (e.g. 'guitar-3'). "
+                             "Manifest is partially updated (only matching variants get bg_image_path written).")
     args = parser.parse_args()
 
     manifest_path = Path(args.manifest)
@@ -174,6 +177,11 @@ def main():
     if args.product_line is not None:
         combos = [c for c in combos if c["product_line"] == args.product_line]
         print(f"  [filtering to product_line='{args.product_line}' ({len(combos)} combos); "
+              f"manifest will be partially updated]")
+
+    if args.model_id is not None:
+        combos = [c for c in combos if c["model_id"] == args.model_id]
+        print(f"  [filtering to model_id='{args.model_id}' ({len(combos)} combos); "
               f"manifest will be partially updated]")
 
     if args.limit is not None:

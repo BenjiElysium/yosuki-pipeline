@@ -159,6 +159,11 @@ def main():
             rows.append((vid, "skipped: unknown ratio", variant["output_path"]))
             continue
 
+        if not variant.get("bg_image_path"):
+            print(f"  [{i}/{len(variants)}] {vid} — ⊘ no bg_image_path (run generation layer first)")
+            rows.append((vid, "skipped: no background", variant["output_path"]))
+            continue
+
         job_path = write_job(variant)
         print(f"  [{i}/{len(variants)}] {vid} → {job_path}")
 
@@ -174,7 +179,12 @@ def main():
     print_summary(rows)
 
     if args.jobs_only:
-        print(f"\n✓ {len(rows)} job JSONs written to {JOBS_DIR}/")
+        written = sum(1 for r in rows if r[1] == "job written")
+        skipped = len(rows) - written
+        msg = f"\n✓ {written} job JSONs written to {JOBS_DIR}/"
+        if skipped:
+            msg += f" ({skipped} variant(s) skipped)"
+        print(msg)
     else:
         ok_count = sum(1 for r in rows if r[1] == "rendered")
         print(f"\n✓ Rendered {ok_count}/{len(rows)} variants")
