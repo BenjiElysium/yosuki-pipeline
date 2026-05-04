@@ -1,8 +1,17 @@
 {
   "generated_at": "2026-04-22T23:36:47.028276+00:00",
-  "schema_version": 2,
+  "schema_version": 3,
   "campaign": "Yosuki 2026 Launch",
+  "slug": "2026-launch-yosuki",
   "brand": "Yosuki Musical Instrument Corporation",
+  "template": {
+    "aep_path": "templates/yosuki_templates.aep",
+    "comps_by_ratio": {
+      "970x250": "yosuki_billboard",
+      "1920x1080": "yosuki_16x9",
+      "1080x1080": "yosuki_1x1"
+    }
+  },
   "total_variants": 30,
   "variants": [
     {
@@ -14,7 +23,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar1-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_midnight-black_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_midnight-black_970x250_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Discover the YG-100",
       "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
@@ -43,7 +52,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_midnight-black_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_midnight-black_970x250.mp4"
     },
     {
       "variant_id": "guitar-1_midnight-black_1920x1080",
@@ -54,7 +63,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar1-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_midnight-black_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_midnight-black_1920x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Discover the YG-100",
       "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
@@ -83,7 +92,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_midnight-black_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_midnight-black_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-1_midnight-black_1080x1080",
@@ -94,7 +103,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar1-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_midnight-black_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_midnight-black_1080x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Discover the YG-100",
       "creative_direction": "Midnight-black finish absorbs the amber glow bleeding from a single off-frame source. Warm gold dissolves into deep shadow at frame edges. Bokeh dust drifts through the air. No hard lines \u2014 only tone, warmth, and quiet authority.",
@@ -123,7 +132,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_midnight-black_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_midnight-black_1080x1080.mp4"
     },
     {
       "variant_id": "guitar-1_ocean-blue_970x250",
@@ -134,7 +143,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar1-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_ocean-blue_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_ocean-blue_970x250_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Play Your Legacy",
       "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
@@ -163,7 +172,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_ocean-blue_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_ocean-blue_970x250.mp4"
     },
     {
       "variant_id": "guitar-1_ocean-blue_1920x1080",
@@ -174,7 +183,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar1-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_ocean-blue_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_ocean-blue_1920x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Play Your Legacy",
       "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
@@ -203,7 +212,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_ocean-blue_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_ocean-blue_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-1_ocean-blue_1080x1080",
@@ -214,7 +223,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar1-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-1_ocean-blue_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-1_ocean-blue_1080x1080_bg.png",
       "tagline": "Timeless Tone. Modern Soul.",
       "cta": "Play Your Legacy",
       "creative_direction": "Golden-hour amber bleeds into deep ocean shadow, mirroring the YG-100's blue finish. Warm light dissolves at edges into velvet dark. Dust hangs in suspended bokeh. No hard lines \u2014 only mood, reflection, and quiet reverence.",
@@ -243,7 +252,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-1_ocean-blue_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-1_ocean-blue_1080x1080.mp4"
     },
     {
       "variant_id": "guitar-2_midnight-black_970x250",
@@ -254,7 +263,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar2-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_midnight-black_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_midnight-black_970x250_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
@@ -283,7 +292,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_midnight-black_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_midnight-black_970x250.mp4"
     },
     {
       "variant_id": "guitar-2_midnight-black_1920x1080",
@@ -294,7 +303,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar2-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_midnight-black_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_midnight-black_1920x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
@@ -323,7 +332,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_midnight-black_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_midnight-black_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-2_midnight-black_1080x1080",
@@ -334,7 +343,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar2-a.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_midnight-black_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_midnight-black_1080x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Midnight-black guitar floats against a vast arena void. Diffused overhead spotlights dissolve into atmospheric haze. Crowd bokeh constellations recede into darkness. Deep crimson bleeds into the shadows, electric and epic.",
@@ -363,7 +372,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_midnight-black_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_midnight-black_1080x1080.mp4"
     },
     {
       "variant_id": "guitar-2_ocean-blue_970x250",
@@ -374,7 +383,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar2-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_ocean-blue_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_ocean-blue_970x250_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
@@ -403,7 +412,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_ocean-blue_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_ocean-blue_970x250.mp4"
     },
     {
       "variant_id": "guitar-2_ocean-blue_1920x1080",
@@ -414,7 +423,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar2-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_ocean-blue_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_ocean-blue_1920x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
@@ -443,7 +452,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_ocean-blue_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_ocean-blue_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-2_ocean-blue_1080x1080",
@@ -454,7 +463,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar2-b.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/guitar-2_ocean-blue_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-2_ocean-blue_1080x1080_bg.png",
       "tagline": "Born for the Stage.",
       "cta": "Discover the YG-200 Pro",
       "creative_direction": "Vast arena stage at night \u2014 ocean-blue guitar anchored low in frame against a deep dark floor. Bokeh crowd lights bloom gold and crimson into haze. Diffused overhead rigs scatter cool white shafts through atmospheric smoke. Epic, electric, cinematic.",
@@ -483,7 +492,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-2_ocean-blue_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-2_ocean-blue_1080x1080.mp4"
     },
     {
       "variant_id": "guitar-3_midnight-black_970x250",
@@ -494,7 +503,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar3-a.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_midnight-black_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_midnight-black_970x250_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
@@ -523,7 +532,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_midnight-black_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_midnight-black_970x250.mp4"
     },
     {
       "variant_id": "guitar-3_midnight-black_1920x1080",
@@ -534,7 +543,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar3-a.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_midnight-black_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_midnight-black_1920x1080_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
@@ -563,7 +572,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_midnight-black_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_midnight-black_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-3_midnight-black_1080x1080",
@@ -574,7 +583,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar3-a.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_midnight-black_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_midnight-black_1080x1080_bg.png",
       "tagline": "Precision Meets Passion.",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep midnight-black finish against a seamless dark studio void. Crimson gradients bloom softly beneath controlled shadows. Floating dust particles catch subtle light, evoking tension and intimacy. No architecture \u2014 pure atmosphere.",
@@ -603,7 +612,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_midnight-black_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_midnight-black_1080x1080.mp4"
     },
     {
       "variant_id": "guitar-3_ocean-blue_970x250",
@@ -614,7 +623,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_ocean-blue_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_ocean-blue_970x250_bg.png",
       "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
@@ -643,7 +652,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_ocean-blue_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_ocean-blue_970x250.mp4"
     },
     {
       "variant_id": "guitar-3_ocean-blue_1920x1080",
@@ -654,7 +663,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_ocean-blue_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_ocean-blue_1920x1080_bg.png",
       "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
@@ -683,7 +692,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_ocean-blue_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_ocean-blue_1920x1080.mp4"
     },
     {
       "variant_id": "guitar-3_ocean-blue_1080x1080",
@@ -694,7 +703,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/guitar3-b.png",
       "render_path": "assets/guitar3.glb",
-      "bg_image_path": "assets/generated/guitar-3_ocean-blue_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/guitar-3_ocean-blue_1080x1080_bg.png",
       "tagline": "Precision Meets Passion",
       "cta": "Discover the YG-300",
       "creative_direction": "Deep seamless dark studio void with ocean-blue gradients bleeding into near-black. Controlled crimson undertones surface subtly. Floating dust particles catch raking light, lending texture and breath to the silence.",
@@ -723,7 +732,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_guitar-3_ocean-blue_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_guitar-3_ocean-blue_1080x1080.mp4"
     },
     {
       "variant_id": "piano-1_ebony_970x250",
@@ -763,7 +772,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-1_ebony_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-1_ebony_970x250.mp4"
     },
     {
       "variant_id": "piano-1_ebony_1920x1080",
@@ -803,7 +812,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-1_ebony_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-1_ebony_1920x1080.mp4"
     },
     {
       "variant_id": "piano-1_ebony_1080x1080",
@@ -843,7 +852,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-1_ebony_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-1_ebony_1080x1080.mp4"
     },
     {
       "variant_id": "piano-2_ebony_970x250",
@@ -883,7 +892,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-2_ebony_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-2_ebony_970x250.mp4"
     },
     {
       "variant_id": "piano-2_ebony_1920x1080",
@@ -923,7 +932,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-2_ebony_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-2_ebony_1920x1080.mp4"
     },
     {
       "variant_id": "piano-2_ebony_1080x1080",
@@ -963,7 +972,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-2_ebony_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-2_ebony_1080x1080.mp4"
     },
     {
       "variant_id": "piano-3_ebony_970x250",
@@ -1002,7 +1011,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-3_ebony_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-3_ebony_970x250.mp4"
     },
     {
       "variant_id": "piano-3_ebony_1920x1080",
@@ -1041,7 +1050,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-3_ebony_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-3_ebony_1920x1080.mp4"
     },
     {
       "variant_id": "piano-3_ebony_1080x1080",
@@ -1080,7 +1089,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_piano-3_ebony_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_piano-3_ebony_1080x1080.mp4"
     },
     {
       "variant_id": "saxophone-1_gold-lacquer_970x250",
@@ -1091,7 +1100,7 @@
       "aspect_ratio": "970x250",
       "product_image_path": "assets/saxophone1.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/saxophone-1_gold-lacquer_970x250_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/saxophone-1_gold-lacquer_970x250_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
       "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
@@ -1120,7 +1129,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_saxophone-1_gold-lacquer_970x250.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_saxophone-1_gold-lacquer_970x250.mp4"
     },
     {
       "variant_id": "saxophone-1_gold-lacquer_1920x1080",
@@ -1131,7 +1140,7 @@
       "aspect_ratio": "1920x1080",
       "product_image_path": "assets/saxophone1.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/saxophone-1_gold-lacquer_1920x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/saxophone-1_gold-lacquer_1920x1080_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
       "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
@@ -1160,7 +1169,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_saxophone-1_gold-lacquer_1920x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_saxophone-1_gold-lacquer_1920x1080.mp4"
     },
     {
       "variant_id": "saxophone-1_gold-lacquer_1080x1080",
@@ -1171,7 +1180,7 @@
       "aspect_ratio": "1080x1080",
       "product_image_path": "assets/saxophone1.png",
       "render_path": null,
-      "bg_image_path": "assets/generated/saxophone-1_gold-lacquer_1080x1080_bg.png",
+      "bg_image_path": "assets/generated/2026-launch-yosuki/saxophone-1_gold-lacquer_1080x1080_bg.png",
       "tagline": "Soul in Every Note.",
       "cta": "Discover the YS-100",
       "creative_direction": "Late-night jazz warmth: gold-lacquer alto glowing against smoky amber bokeh. Candle halos and bar lights dissolve into dark brick softness. No hard edges \u2014 only depth, heat, and breath.",
@@ -1200,7 +1209,7 @@
       "logo_path": "assets/logo.png",
       "primary_color": "#B01020",
       "duration_seconds": 7,
-      "output_path": "output/2026-launch/yosuki_saxophone-1_gold-lacquer_1080x1080.mp4"
+      "output_path": "output/2026-launch-yosuki/yosuki_saxophone-1_gold-lacquer_1080x1080.mp4"
     }
   ]
 }

@@ -33,16 +33,19 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MODEL = "black-forest-labs/flux-2-pro"
-GENERATED_DIR = Path("assets/generated")
+GENERATED_ROOT = Path("assets/generated")
 SLEEP_BETWEEN_CALLS = 2  # seconds
 
-REPLICATE_PARAMS_BY_RATIO = {
-    "1920x1080": {"aspect_ratio": "custom", "width": 1920, "height": 1088},
-    "1080x1080": {"aspect_ratio": "custom", "width": 1088, "height": 1088},
-    "970x250":   {"aspect_ratio": "custom", "width": 976,  "height": 256},
-}
-
 PROMPT_SUFFIX = " Background scene only. Empty of people and objects. Photorealistic. Cinematic."
+
+
+def flux_dims_for_ratio(ratio: str) -> dict:
+    """Parse a 'WxH' aspect ratio string and return Replicate flux-2-pro params,
+    rounding W/H up to multiples of 16 (Flux requirement)."""
+    w_str, h_str = ratio.split("x")
+    w, h = int(w_str), int(h_str)
+    ceil16 = lambda n: ((n + 15) // 16) * 16
+    return {"aspect_ratio": "custom", "width": ceil16(w), "height": ceil16(h)}
 
 ANATOMY_BY_LINE = {
     "guitar": ["fretboard", "strings", "headstock", "neck", "pickguard", "tuning peg", "body"],
@@ -157,10 +160,13 @@ def main():
     with open(manifest_path) as f:
         manifest = json.load(f)
 
-    if manifest.get("schema_version") != 2:
-        print(f"⚠  Expected schema_version=2, got {manifest.get('schema_version')}. "
+    if manifest.get("schema_version") != 3:
+        print(f"⚠  Expected schema_version=3, got {manifest.get('schema_version')}. "
               f"Re-run input_layer.py to regenerate the manifest.")
         sys.exit(1)
+
+    slug = manifest["slug"]
+    generated_dir = GENERATED_ROOT / slug
 
     combos = unique_combos(manifest["variants"])
     total_variants = len(manifest["variants"])
@@ -183,7 +189,7 @@ def main():
         if not os.environ.get("REPLICATE_API_TOKEN"):
             print("✗ REPLICATE_API_TOKEN not set. Add it to .env or export it.")
             sys.exit(1)
-        GENERATED_DIR.mkdir(parents=True, exist_ok=True)
+        generated_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"\n→ Generating backgrounds for {len(combos)} unique combos "
           f"(applied to {total_variants} variant records)...")
@@ -195,7 +201,7 @@ def main():
         aspect_ratio = combo["aspect_ratio"]
         key = (combo["model_id"], combo["color_variant"], aspect_ratio)
         bg_filename = f"{combo['model_id']}_{combo['color_variant']}_{aspect_ratio}_bg.png"
-        bg_path = GENERATED_DIR / bg_filename
+        bg_path = generated_dir / bg_filename
 
         try:
             prompt = build_prompt(combo)
@@ -203,9 +209,10 @@ def main():
             print(f"  [{i}/{len(combos)}] ✗ {e}")
             continue
 
-        ratio_params = REPLICATE_PARAMS_BY_RATIO.get(aspect_ratio)
-        if ratio_params is None:
-            print(f"  [{i}/{len(combos)}] ✗ No REPLICATE_PARAMS entry for aspect_ratio '{aspect_ratio}' — skipping")
+        try:
+            ratio_params = flux_dims_for_ratio(aspect_ratio)
+        except (ValueError, IndexError):
+            print(f"  [{i}/{len(combos)}] ✗ Cannot parse aspect_ratio '{aspect_ratio}' as 'WxH' — skipping")
             continue
 
         print(f"  [{i}/{len(combos)}] {combo['model_id']} / {combo['color_variant']} / {aspect_ratio} "

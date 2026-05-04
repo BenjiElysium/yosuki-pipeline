@@ -26,13 +26,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TEMPLATE_AEP = Path("templates/yosuki_templates.aep")
-COMP_BY_RATIO = {
-    "970x250":   "yosuki_billboard",
-    "1920x1080": "yosuki_16x9",
-    "1080x1080": "yosuki_1x1",
-}
-JOBS_DIR = Path("jobs")
+JOBS_ROOT = Path("jobs")
 
 
 def file_uri(path: Path) -> str:
@@ -40,8 +34,7 @@ def file_uri(path: Path) -> str:
     return path.resolve().as_uri()
 
 
-def build_job(variant: dict) -> dict:
-    comp = COMP_BY_RATIO[variant["aspect_ratio"]]
+def build_job(variant: dict, template_aep: Path, comp: str) -> dict:
     output_abs = str(Path(variant["output_path"]).resolve())
 
     # useOriginal=true tells nexrender to reference local file:// assets in place
@@ -49,7 +42,7 @@ def build_job(variant: dict) -> dict:
     # absolute source paths — see @nexrender/core download.js:163-166).
     return {
         "template": {
-            "src": file_uri(TEMPLATE_AEP),
+            "src": file_uri(template_aep),
             "composition": comp,
             "useOriginal": True,
         },
@@ -68,9 +61,9 @@ def build_job(variant: dict) -> dict:
     }
 
 
-def write_job(variant: dict) -> Path:
-    job = build_job(variant)
-    job_path = JOBS_DIR / f"{variant['variant_id']}.json"
+def write_job(variant: dict, jobs_dir: Path, template_aep: Path, comp: str) -> Path:
+    job = build_job(variant, template_aep, comp)
+    job_path = jobs_dir / f"{variant['variant_id']}.json"
     with open(job_path, "w") as f:
         json.dump(job, f, indent=2)
     return job_path
@@ -122,6 +115,20 @@ def main():
     with open(manifest_path) as f:
         manifest = json.load(f)
 
+    if manifest.get("schema_version") != 3:
+        print(f"⚠  Expected schema_version=3, got {manifest.get('schema_version')}. "
+              f"Re-run input_layer.py to regenerate the manifest.")
+        sys.exit(1)
+
+    slug = manifest["slug"]
+    template_aep = Path(manifest["template"]["aep_path"])
+    comps_by_ratio: dict[str, str] = manifest["template"]["comps_by_ratio"]
+    jobs_dir = JOBS_ROOT / slug
+
+    if not template_aep.exists():
+        print(f"✗ Template AEP not found: {template_aep}")
+        sys.exit(1)
+
     variants = manifest["variants"]
     if args.filter:
         variants = [v for v in variants if all(f in v["variant_id"] for f in args.filter)]
@@ -138,7 +145,7 @@ def main():
             print(f"✗ AERENDER_PATH points to missing binary: {aerender_path}")
             sys.exit(1)
 
-    JOBS_DIR.mkdir(exist_ok=True)
+    jobs_dir.mkdir(parents=True, exist_ok=True)
     # Ensure every target output directory exists
     for v in variants:
         Path(v["output_path"]).parent.mkdir(parents=True, exist_ok=True)
@@ -154,8 +161,9 @@ def main():
         vid = variant["variant_id"]
         ratio = variant["aspect_ratio"]
 
-        if ratio not in COMP_BY_RATIO:
-            print(f"  [{i}/{len(variants)}] {vid} — ✗ unknown aspect_ratio '{ratio}'")
+        comp = comps_by_ratio.get(ratio)
+        if comp is None:
+            print(f"  [{i}/{len(variants)}] {vid} — ✗ no comp mapped for aspect_ratio '{ratio}' in template.comps_by_ratio")
             rows.append((vid, "skipped: unknown ratio", variant["output_path"]))
             continue
 
@@ -164,7 +172,7 @@ def main():
             rows.append((vid, "skipped: no background", variant["output_path"]))
             continue
 
-        job_path = write_job(variant)
+        job_path = write_job(variant, jobs_dir, template_aep, comp)
         print(f"  [{i}/{len(variants)}] {vid} → {job_path}")
 
         if args.jobs_only:
@@ -181,7 +189,7 @@ def main():
     if args.jobs_only:
         written = sum(1 for r in rows if r[1] == "job written")
         skipped = len(rows) - written
-        msg = f"\n✓ {written} job JSONs written to {JOBS_DIR}/"
+        msg = f"\n✓ {written} job JSONs written to {jobs_dir}/"
         if skipped:
             msg += f" ({skipped} variant(s) skipped)"
         print(msg)

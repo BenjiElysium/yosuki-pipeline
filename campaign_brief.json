@@ -8,9 +8,17 @@
   },
   "campaign": {
     "name": "Yosuki 2026 Launch",
+    "slug": "2026-launch-yosuki",
     "duration_seconds": 7,
     "aspect_ratios": ["970x250", "1920x1080", "1080x1080"],
-    "output_dir": "./output/2026-launch"
+    "template": {
+      "aep_path": "templates/yosuki_templates.aep",
+      "comps_by_ratio": {
+        "970x250": "yosuki_billboard",
+        "1920x1080": "yosuki_16x9",
+        "1080x1080": "yosuki_1x1"
+      }
+    }
   },
   "products": [
     {

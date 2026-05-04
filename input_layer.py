@@ -53,12 +53,23 @@ BRIEF_SCHEMA = {
         },
         "campaign": {
             "type": "object",
-            "required": ["name", "duration_seconds", "aspect_ratios", "output_dir"],
+            "required": ["name", "slug", "duration_seconds", "aspect_ratios", "template"],
             "properties": {
                 "name": {"type": "string"},
+                "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
                 "duration_seconds": {"type": "number", "minimum": 5, "maximum": 10},
                 "aspect_ratios": {"type": "array", "items": {"type": "string"}, "minItems": 1},
-                "output_dir": {"type": "string"},
+                "template": {
+                    "type": "object",
+                    "required": ["aep_path", "comps_by_ratio"],
+                    "properties": {
+                        "aep_path": {"type": "string"},
+                        "comps_by_ratio": {
+                            "type": "object",
+                            "additionalProperties": {"type": "string"},
+                        },
+                    },
+                },
             },
         },
         "products": {
@@ -248,6 +259,7 @@ def generate_copy(client: anthropic.Anthropic, brand: dict, product: dict, varia
 def expand_variants(brief: dict, client: anthropic.Anthropic) -> list[dict]:
     brand = brief["brand"]
     campaign = brief["campaign"]
+    output_dir = Path("output") / campaign["slug"]
     variants_out = []
 
     total = sum(len(p["variants"]) for p in brief["products"])
@@ -270,7 +282,7 @@ def expand_variants(brief: dict, client: anthropic.Anthropic) -> list[dict]:
             for aspect_ratio in campaign["aspect_ratios"]:
                 variant_id = f"{product['model_id']}_{color_variant}_{aspect_ratio}"
                 output_filename = f"yosuki_{variant_id}.mp4"
-                output_path = str(Path(campaign["output_dir"]) / output_filename)
+                output_path = str(output_dir / output_filename)
 
                 variants_out.append({
                     "variant_id": variant_id,
@@ -332,9 +344,11 @@ def main():
 
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "schema_version": 2,
+        "schema_version": 3,
         "campaign": brief["campaign"]["name"],
+        "slug": brief["campaign"]["slug"],
         "brand": brief["brand"]["name"],
+        "template": brief["campaign"]["template"],
         "total_variants": len(variants),
         "variants": variants,
     }
