@@ -1,17 +1,19 @@
 """
 generation_layer.py — Yosuki Motion Graphics Pipeline
 -----------------------------------------------------
-Reads variant_manifest.json, generates a background image per unique
-(model_id, color_variant, aspect_ratio) combo via Replicate
-(black-forest-labs/flux-2-pro) at the correct pixel dimensions for each
-aspect ratio, saves PNGs under assets/generated/, and writes bg_image_path
-back into each matching variant record in the manifest.
+Reads variant_manifest.json, deduplicates by (model_id, color_variant,
+aspect_ratio), serializes each variant's flux_prompt JSON object and sends it
+to Replicate (flux-2-pro) at the correct pixel dimensions, saves PNGs under
+assets/generated/, and writes bg_image_path back into matching variant records.
+String fields in the flux_prompt are sanitized against product/anatomy words
+as a safety net in case Claude slips a disallowed word in.
 
 Usage:
-    python generation_layer.py [--manifest path/to/manifest.json] [--dry-run]
+    python generation_layer.py [--manifest variant_manifest.json]
+                               [--dry-run] [--limit N]
+                               [--product-line guitar|piano|saxophone]
 
 Requirements:
-    pip install replicate python-dotenv pillow
     REPLICATE_API_TOKEN must be set in .env or the environment.
 """
 
@@ -34,15 +36,10 @@ MODEL = "black-forest-labs/flux-2-pro"
 GENERATED_DIR = Path("assets/generated")
 SLEEP_BETWEEN_CALLS = 2  # seconds
 
-# Replicate input params per aspect-ratio label. Flux ignores width/height
-# unless aspect_ratio="custom"; width/height must be multiples of 16 (970→976).
-# Delivery layer can crop the extra 6px horizontally on the 970x250 spot.
 REPLICATE_PARAMS_BY_RATIO = {
-    # All-custom so we own exact dimensions. Values are rounded UP to the nearest
-    # multiple of 16 where needed; the delivery layer can center-crop to exact.
-    "1920x1080": {"aspect_ratio": "custom", "width": 1920, "height": 1088},  # crop 8h
-    "1080x1080": {"aspect_ratio": "custom", "width": 1088, "height": 1088},  # crop 8w, 8h
-    "970x250":   {"aspect_ratio": "custom", "width": 976,  "height": 256},   # crop 6w, 6h
+    "1920x1080": {"aspect_ratio": "custom", "width": 1920, "height": 1088},
+    "1080x1080": {"aspect_ratio": "custom", "width": 1088, "height": 1088},
+    "970x250":   {"aspect_ratio": "custom", "width": 976,  "height": 256},
 }
 
 PROMPT_SUFFIX = " Background scene only. Empty of people and objects. Photorealistic. Cinematic."
@@ -53,12 +50,14 @@ ANATOMY_BY_LINE = {
     "saxophone": ["bell", "reed", "mouthpiece", "keys", "neck strap", "pad"],
 }
 
+FLUX_STRING_FIELDS = ("scene", "style", "lighting", "mood", "background", "composition")
+
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-def sanitize_prompt(text: str, variant: dict) -> str:
+def sanitize_text(text: str, variant: dict) -> str:
     """Strip product identifiers so Flux doesn't hallucinate the instrument."""
     words_to_strip = [
         variant["model_name"],
@@ -70,30 +69,34 @@ def sanitize_prompt(text: str, variant: dict) -> str:
     result = text
     for w in words_to_strip:
         result = re.sub(re.escape(w), "", result, flags=re.IGNORECASE)
-    # Collapse whitespace and stitch up orphaned punctuation gaps left behind
     result = re.sub(r"\s+", " ", result)
     result = re.sub(r"\s+([.,;:'’])", r"\1", result)
     return result.strip()
 
 
+def sanitize_flux_prompt(flux_prompt: dict, variant: dict) -> dict:
+    """Return a copy of flux_prompt with product/anatomy words stripped from string fields."""
+    cleaned = json.loads(json.dumps(flux_prompt))  # deep copy
+    for field in FLUX_STRING_FIELDS:
+        if field in cleaned and isinstance(cleaned[field], str):
+            cleaned[field] = sanitize_text(cleaned[field], variant)
+    cam = cleaned.get("camera", {})
+    for k in ("angle", "lens", "depth_of_field"):
+        if k in cam and isinstance(cam[k], str):
+            cam[k] = sanitize_text(cam[k], variant)
+    return cleaned
+
+
 def build_prompt(combo: dict) -> str:
-    """
-    Prefer a structured scene_direction JSON (authored directly for Flux);
-    fall back to Claude's summarized creative_direction otherwise. We only
-    sanitize the fallback — stripping words from the authored JSON would
-    corrupt its structure.
-    """
-    scene_direction = combo.get("scene_direction") or ""
-    try:
-        parsed = json.loads(scene_direction)
-    except (json.JSONDecodeError, TypeError):
-        parsed = None
+    flux_prompt = combo.get("flux_prompt")
+    if not isinstance(flux_prompt, dict):
+        raise ValueError(
+            f"Variant {combo.get('variant_id')} missing flux_prompt object. "
+            f"Did you run input_layer.py against the brief first?"
+        )
 
-    if isinstance(parsed, dict):
-        return scene_direction.strip() + PROMPT_SUFFIX
-
-    sanitized = sanitize_prompt(combo["creative_direction"], combo)
-    return sanitized + PROMPT_SUFFIX
+    cleaned = sanitize_flux_prompt(flux_prompt, combo)
+    return json.dumps(cleaned) + PROMPT_SUFFIX
 
 
 def unique_combos(variants: list[dict]) -> list[dict]:
@@ -107,10 +110,8 @@ def unique_combos(variants: list[dict]) -> list[dict]:
 
 
 def download_output(output, dest: Path) -> None:
-    """Write Replicate's output bytes to disk. output_format=png is set on the call."""
     if isinstance(output, list):
         output = output[0]
-
     if hasattr(output, "read"):
         dest.write_bytes(output.read())
     else:
@@ -138,10 +139,14 @@ def main():
     parser.add_argument("--manifest", default="variant_manifest.json", help="Path to variant manifest")
     parser.add_argument("--dry-run", action="store_true", help="Print prompts without calling Replicate")
     parser.add_argument("--limit", type=int, default=None,
-                        help="Generate only the first N combos. Test mode: does not update the manifest.")
+                        help="Generate only the first N combos. Manifest is partially updated "
+                             "(only matching variants get bg_image_path written).")
     parser.add_argument("--product-line", default=None,
-                        help="Only generate for combos matching this product_line (e.g. 'piano'). "
-                             "Test mode: does not update the manifest.")
+                        help="Only generate for combos matching this product_line (e.g. 'guitar'). "
+                             "Manifest is partially updated (only matching variants get bg_image_path written).")
+    parser.add_argument("--model-id", default=None,
+                        help="Only generate for a specific model_id (e.g. 'guitar-3'). "
+                             "Manifest is partially updated (only matching variants get bg_image_path written).")
     args = parser.parse_args()
 
     manifest_path = Path(args.manifest)
@@ -152,17 +157,27 @@ def main():
     with open(manifest_path) as f:
         manifest = json.load(f)
 
+    if manifest.get("schema_version") != 2:
+        print(f"⚠  Expected schema_version=2, got {manifest.get('schema_version')}. "
+              f"Re-run input_layer.py to regenerate the manifest.")
+        sys.exit(1)
+
     combos = unique_combos(manifest["variants"])
     total_variants = len(manifest["variants"])
 
     if args.product_line is not None:
         combos = [c for c in combos if c["product_line"] == args.product_line]
-        print(f"  [TEST MODE — filtering to product_line='{args.product_line}' "
-              f"({len(combos)} combos), manifest will NOT be updated]")
+        print(f"  [filtering to product_line='{args.product_line}' ({len(combos)} combos); "
+              f"manifest will be partially updated]")
+
+    if args.model_id is not None:
+        combos = [c for c in combos if c["model_id"] == args.model_id]
+        print(f"  [filtering to model_id='{args.model_id}' ({len(combos)} combos); "
+              f"manifest will be partially updated]")
 
     if args.limit is not None:
         combos = combos[: args.limit]
-        print(f"  [TEST MODE — limiting to first {args.limit} combos, manifest will NOT be updated]")
+        print(f"  [limiting to first {args.limit} combos; manifest will be partially updated]")
 
     if not args.dry_run:
         if not os.environ.get("REPLICATE_API_TOKEN"):
@@ -181,7 +196,12 @@ def main():
         key = (combo["model_id"], combo["color_variant"], aspect_ratio)
         bg_filename = f"{combo['model_id']}_{combo['color_variant']}_{aspect_ratio}_bg.png"
         bg_path = GENERATED_DIR / bg_filename
-        prompt = build_prompt(combo)
+
+        try:
+            prompt = build_prompt(combo)
+        except ValueError as e:
+            print(f"  [{i}/{len(combos)}] ✗ {e}")
+            continue
 
         ratio_params = REPLICATE_PARAMS_BY_RATIO.get(aspect_ratio)
         if ratio_params is None:
@@ -209,11 +229,19 @@ def main():
         return
 
     if args.limit is not None or args.product_line is not None:
-        print(f"\n✓ Test round complete: {len(combo_to_bg)}/{len(combos)} images generated.")
-        print(f"  Manifest NOT modified. Verify dimensions then re-run without filters.")
+        print(f"\n→ Test round complete: {len(combo_to_bg)}/{len(combos)} images generated.")
+        print(f"  Writing bg_image_path into matching variants only (other variants untouched).")
+        updated = 0
+        for v in manifest["variants"]:
+            key = (v["model_id"], v["color_variant"], v["aspect_ratio"])
+            if key in combo_to_bg:
+                v["bg_image_path"] = combo_to_bg[key]
+                updated += 1
+        with open(manifest_path, "w") as f:
+            json.dump(manifest, f, indent=2)
+        print(f"✓ Manifest partially updated: {manifest_path} ({updated} variant records)")
         return
 
-    # Write bg_image_path back to every variant record whose combo was generated
     updated = 0
     for v in manifest["variants"]:
         key = (v["model_id"], v["color_variant"], v["aspect_ratio"])
