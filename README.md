@@ -61,11 +61,11 @@ This step requires your **system password** and must be done exactly once per ma
 
 nexrender needs to patch After Effects' `commandLineRenderer.jsx` so scripts can drive renders from the CLI. The patch lives inside `/Applications/Adobe After Effects 2025/Scripts/`, which is owned by `root` — so the patching step requires `sudo`.
 
-From the repo root, run nexrender once with any job JSON (run `uv run python orchestrate.py --jobs-only` first if the `jobs/` directory is empty):
+From the repo root, run nexrender once with any job JSON. If `jobs/<slug>/` is empty, generate one first with `uv run python orchestrate.py --jobs-only --filter <variant_id>`:
 
 ```bash
 sudo nexrender-cli \
-  -f jobs/guitar-1_midnight-black_1920x1080.json \
+  -f jobs/<slug>/<variant_id>.json \
   -b "/Applications/Adobe After Effects 2025/aerender"
 ```
 
@@ -115,9 +115,12 @@ uv run python orchestrate.py --manifest variant_manifest.json
 
 ### Useful flags
 
+**`input_layer.py`**
+- `--reuse-bgs-from <slug>` — point each variant's `bg_image_path` at `assets/generated/<slug>/` instead of leaving it `null`. Lets you skip the generation layer when running another language version (or any campaign that shares visuals with an existing one).
+
 **`generation_layer.py`**
 - `--dry-run` — print prompts without calling Replicate
-- `--limit N` — generate only the first N combos (test mode; does not update the manifest)
+- `--limit N` — generate only the first N combos. Manifest is partially updated: only the matching variants get `bg_image_path` written; the rest stay `null`.
 - `--product-line piano` — regenerate a single product line after brief edits
 
 **`orchestrate.py`**
@@ -125,6 +128,80 @@ uv run python orchestrate.py --manifest variant_manifest.json
   Example: `--filter guitar --filter 1920x1080` runs only 1920×1080 guitar variants.
 - `--jobs-only` — emit the job JSONs but skip rendering
 - `--manifest <path>` — use a different manifest
+
+## Running another language version (e.g. French)
+
+The pipeline has no language switch — Claude infers language from the prompt context, which means you steer it through the brief's free-text fields. The slug-driven paths make a multi-language run safe: outputs land under a different `<slug>/` so nothing collides with the source campaign.
+
+> **Tip — reuse backgrounds.** If the visuals don't need to differ between languages (most common, since the backgrounds are abstract atmospheric scenes), pass `--reuse-bgs-from <source-slug>` to `input_layer.py` and skip the generation layer entirely (~$0.84 saved on a full run). Each variant's `bg_image_path` will point at the source campaign's PNGs. See the alternate commands inline below.
+
+### 1. Duplicate the brief
+
+```bash
+cp campaign_brief.json campaign_brief_fr.json
+```
+
+### 2. Edit `campaign_brief_fr.json`
+
+Two required edits, one optional:
+
+- **`campaign.slug`** → change to e.g. `2026-launch-yosuki-fr` (kebab-case, must be unique). This is what isolates the new campaign's outputs from the source.
+- **`brand.tone`** → append a language directive so Claude writes copy in French. Example:
+  ```json
+  "tone": "premium, precise, emotive — write all copy in French (FR-FR), no English words"
+  ```
+  The `tone` field is interpolated into the Claude prompt verbatim, so be specific. Adding "no English words" prevents stray English in CTAs like "Discover".
+- *(Optional but recommended)* Rewrite each product's `tagline_hint` and `scene_direction` in French. Native-language seeds give Claude a stronger anchor than instructions alone — best results when both signals point the same way.
+
+### 3. Smoke-test with `--limit 1`
+
+```bash
+# ~10 Claude calls — generates French copy + flux_prompts
+uv run python input_layer.py --brief campaign_brief_fr.json --out variant_manifest_fr.json
+
+# 1 Replicate call (~$0.04) — generates one background to verify the new manifest works
+uv run python generation_layer.py --manifest variant_manifest_fr.json --limit 1
+
+# 1 render — verify the MP4 has French tagline/CTA
+uv run python orchestrate.py --manifest variant_manifest_fr.json \
+  --filter guitar-1 --filter midnight-black --filter 970x250
+```
+
+**Reuse-backgrounds variant.** Replace the first two commands above with a single call:
+
+```bash
+uv run python input_layer.py \
+  --brief campaign_brief_fr.json \
+  --out variant_manifest_fr.json \
+  --reuse-bgs-from 2026-launch-yosuki
+```
+
+The flag points each variant's `bg_image_path` at `assets/generated/2026-launch-yosuki/` and reports any expected file that's missing (those variants will be skipped at render). Then jump straight to the orchestrate command.
+
+Open the MP4 in `output/2026-launch-yosuki-fr/` and confirm the tagline and CTA are in French. If English slipped through, sharpen the `tone` directive (e.g. add "All output strings — tagline, cta, creative_direction — must be in French.") and re-run step 3 from the top.
+
+### 4. Full run
+
+```bash
+# 21 unique backgrounds (~$0.84 at flux-2-pro pricing)
+uv run python generation_layer.py --manifest variant_manifest_fr.json
+
+# 30 renders
+uv run python orchestrate.py --manifest variant_manifest_fr.json
+```
+
+If you used `--reuse-bgs-from` in step 3, skip `generation_layer.py` here — the manifest already points at the source campaign's backgrounds. Just run orchestrate.
+
+### 5. Cleanup
+
+```bash
+rm -rf assets/generated/2026-launch-yosuki-fr \
+       output/2026-launch-yosuki-fr \
+       jobs/2026-launch-yosuki-fr \
+       variant_manifest_fr.json
+# optionally also delete the brief copy
+rm campaign_brief_fr.json
+```
 
 ## Architecture notes
 

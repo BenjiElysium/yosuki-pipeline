@@ -309,6 +309,39 @@ def expand_variants(brief: dict, client: anthropic.Anthropic) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Background reuse (skip generation layer for shared-visual multi-lang runs)
+# ---------------------------------------------------------------------------
+
+def populate_reused_bgs(variants: list[dict], source_slug: str) -> None:
+    """Point each variant's bg_image_path at assets/generated/<source_slug>/.
+    Variants whose expected background file doesn't exist are left as None and
+    will be skipped at render time."""
+    source_dir = Path("assets/generated") / source_slug
+    if not source_dir.exists():
+        print(f"\n✗ --reuse-bgs-from source not found: {source_dir}/")
+        sys.exit(1)
+
+    matched = 0
+    missing: list[str] = []
+    for v in variants:
+        candidate = source_dir / f"{v['model_id']}_{v['color_variant']}_{v['aspect_ratio']}_bg.png"
+        if candidate.exists():
+            v["bg_image_path"] = str(candidate)
+            matched += 1
+        else:
+            missing.append(v["variant_id"])
+
+    print(f"\n→ Reusing backgrounds from {source_dir}/")
+    print(f"  Matched: {matched}/{len(variants)}")
+    if missing:
+        print(f"  Missing ({len(missing)}) — these variants will be skipped at render:")
+        for vid in missing[:10]:
+            print(f"    - {vid}")
+        if len(missing) > 10:
+            print(f"    ... and {len(missing) - 10} more")
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -316,6 +349,10 @@ def main():
     parser = argparse.ArgumentParser(description="Yosuki pipeline — Input Layer")
     parser.add_argument("--brief", default="campaign_brief.json", help="Path to campaign brief JSON")
     parser.add_argument("--out", default="variant_manifest.json", help="Output manifest path")
+    parser.add_argument("--reuse-bgs-from", default=None, metavar="SLUG",
+                        help="Skip the generation layer by pointing each variant's bg_image_path "
+                             "at assets/generated/<SLUG>/. Useful when running another language "
+                             "version of the same campaign and the visuals can be shared.")
     args = parser.parse_args()
 
     brief_path = Path(args.brief)
@@ -342,6 +379,9 @@ def main():
 
     variants = expand_variants(brief, client)
 
+    if args.reuse_bgs_from:
+        populate_reused_bgs(variants, args.reuse_bgs_from)
+
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "schema_version": 3,
@@ -360,7 +400,11 @@ def main():
 
     print(f"\n✓ Manifest written: {out_path}")
     print(f"  Total variants: {len(variants)}")
-    print(f"  Next step: python generation_layer.py --manifest {out_path}")
+    if args.reuse_bgs_from:
+        print(f"  Next step: python orchestrate.py --manifest {out_path}  "
+              f"(generation layer skipped — bgs reused from '{args.reuse_bgs_from}')")
+    else:
+        print(f"  Next step: python generation_layer.py --manifest {out_path}")
 
 
 if __name__ == "__main__":
