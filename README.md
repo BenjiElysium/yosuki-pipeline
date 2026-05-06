@@ -160,7 +160,7 @@ Two required edits, one optional:
 uv run python input_layer.py --brief campaign_brief_fr.json --out variant_manifest_fr.json
 
 # 1 Replicate call (~$0.04) — generates one background to verify the new manifest works
-uv run python generation_layer.py --manifest variant_manifest_fr.json --limit 1
+uv run python generation_layer.py --manifest variant_manifest_fr.json --limit 3
 
 # 1 render — verify the MP4 has French tagline/CTA
 uv run python orchestrate.py --manifest variant_manifest_fr.json \

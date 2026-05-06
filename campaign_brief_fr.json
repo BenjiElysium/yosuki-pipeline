@@ -1,0 +1,106 @@
+{
+  "brand": {
+    "name": "Yosuki Musical Instrument Corporation",
+    "logo_path": "assets/logo.png",
+    "primary_color": "#B01020",
+    "tone": "premium, precise, emotive — write all copy in French (FR-FR), no English words",
+    "target_audience": "serious musicians aged 25-45"
+  },
+  "campaign": {
+    "name": "Yosuki 2026 Launch (FR)",
+    "slug": "2026-launch-yosuki-fr",
+    "duration_seconds": 7,
+    "aspect_ratios": ["970x250", "1920x1080", "1080x1080"],
+    "template": {
+      "aep_path": "templates/yosuki_templates.aep",
+      "comps_by_ratio": {
+        "970x250": "yosuki_billboard",
+        "1920x1080": "yosuki_16x9",
+        "1080x1080": "yosuki_1x1"
+      }
+    }
+  },
+  "products": [
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-1",
+      "model_name": "YG-100 Classic",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar1-a.png",
+        "ocean-blue": "assets/guitar1-b.png"
+      },
+      "tagline_hint": "timeless tone, modern soul",
+      "scene_direction": "intimate recording studio at golden hour, warm amber light bleeding through a single window, soft bokeh dust particles in the air, smooth dark floor with a long gentle reflection, walls fading to shadow, no hard edges, classic and timeless mood"
+    },
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-2",
+      "model_name": "YG-200 Pro",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar2-a.png",
+        "ocean-blue": "assets/guitar2-b.png"
+      },
+      "tagline_hint": "built for the stage",
+      "scene_direction": "vast concert arena stage floor at night, wide bokeh field of crowd lights and stage rigs receding into darkness, atmospheric haze catching multiple diffused spotlights from above, deep dark stage floor as foreground, electric and epic energy, no single hard light column"
+    },
+    {
+      "product_line": "guitar",
+      "model_id": "guitar-3",
+      "model_name": "YG-300 Series III",
+      "variants": ["midnight-black", "ocean-blue"],
+      "image_paths": {
+        "midnight-black": "assets/guitar3-a.png",
+        "ocean-blue": "assets/guitar3-b.png"
+      },
+      "render_path": "assets/guitar3.glb",
+      "tagline_hint": "precision meets passion",
+      "scene_direction": "evocative dark studio, deep seamless backdrop, gradients merging to create a gentle vibe across a textured surface, deep controlled shadows, refined and precise atmosphere, subtle surface sheen, with floating dust particles no architecture visible"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-1",
+      "model_name": "YP-100 Studio",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano1.png"
+      },
+      "tagline_hint": "where notes become music",
+      "scene_direction": "intimate recital hall at night, wide soft bokeh field of warm amber house lights seen from stage level, diffused glow across dark polished floor, haze in the air catching scattered light sources, quiet and focused mood, no single spotlight, warmth dissolving into deep shadow"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-2",
+      "model_name": "YP-200 Grand",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano2.png"
+      },
+      "tagline_hint": "the sound of mastery",
+      "scene_direction": "grand private salon or ballroom at dusk, wide bokeh of warm candlelight and chandeliers reflected across a deep dark parquet floor, rich burgundy and gold tones throughout, scattered soft light sources creating an opulent glow, old world elegance, no hard shadows"
+    },
+    {
+      "product_line": "piano",
+      "model_id": "piano-3",
+      "model_name": "YP-300 Concert",
+      "variants": ["ebony"],
+      "image_paths": {
+        "ebony": "assets/piano3.png"
+      },
+      "tagline_hint": "crafted for the world stage",
+      "scene_direction": "vast concert hall stage seen from floor level, wide bokeh field of diffused house lights and rig lights dissolving into enormous dark auditorium depth, atmospheric haze catching scattered light, dark polished stage floor as foreground, monumental scale, reverential and epic mood"
+    },
+    {
+      "product_line": "saxophone",
+      "model_id": "saxophone-1",
+      "model_name": "YS-100 Alto",
+      "variants": ["gold-lacquer"],
+      "image_paths": {
+        "gold-lacquer": "assets/saxophone1.png"
+      },
+      "tagline_hint": "soul in every note",
+      "scene_direction": "late night jazz club, smoky amber atmosphere, wide bokeh field of warm bar lights and candles receding into darkness, smoke haze catching golden light, dark exposed brick texture softened by depth of field, intimate and soulful, no hard spotlights, pure late-night warmth"
+    }
+  ]
+}
